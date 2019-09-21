@@ -15,17 +15,20 @@ public class Main {
                 break;
             case 3:
                 //Area
+                Area area = new Area(menu.getConvertFrom(), menu.getConvertTo(), menu.getValueToConvert());
                 break;
             case 4:
                 //Volume
+                Volume vol = new Volume(menu.getConvertFrom(), menu.getConvertTo(), menu.getValueToConvert());
                 break;
             case 5:
                 //Weight
+                Weight weight = new Weight(menu.getConvertFrom(), menu.getConvertTo(), menu.getValueToConvert());
                 break;
             case 6:
                 //Time
+                Time time = new Time(menu.getConvertFrom(), menu.getConvertTo(), menu.getValueToConvert());
                 break;
-
         }
     }
 }

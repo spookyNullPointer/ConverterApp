@@ -2986,7 +2986,7 @@ public class VolumeTest {
     public void testUSTableSpoonToCbMillimeter2(){
         Volume vol = new Volume(12, 4, 1000);
         double result = vol.getConversionResult();
-        assertEquals(14786757.812, result, DELTA);
+        assertEquals(1.478675284386224E7, result, DELTA);
     }
     @Test
     public void testUSTableSpoonToLiter1(){
@@ -3518,7 +3518,7 @@ public class VolumeTest {
     public void testImperialGallonToCbMillimeter2(){
         Volume vol = new Volume(14, 4, 1000);
         double result = vol.getConversionResult();
-        assertEquals(4546090000D, result, DELTA);
+        assertEquals(4.546090002047841E9, result, DELTA);
     }
     @Test
     public void testImperialGallonToLiter1(){
@@ -3737,4 +3737,2132 @@ public class VolumeTest {
         assertEquals(277419.43279, result, DELTA);
     }
 
+    //Imperial Quart To ... Test
+    @Test
+    public void testImperialQuartToCbMeter1(){
+        Volume vol = new Volume(15, 1, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0011365225, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToCbMeter2(){
+        Volume vol = new Volume(15, 1, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.1365225, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToCbKilometer1(){
+        Volume vol = new Volume(15, 2, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.1365225E-12, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToCbKilometer2(){
+        Volume vol = new Volume(15, 2, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.1365225E-9, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToCbCentimeter1(){
+        Volume vol = new Volume(15, 3, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1136.5225, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToCbCentimeter2(){
+        Volume vol = new Volume(15, 3, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1136522.5, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToCbMillimeter1(){
+        Volume vol = new Volume(15, 4, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1136522.5, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToCbMillimeter2(){
+        Volume vol = new Volume(15, 4, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1136522500, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToLiter1(){
+        Volume vol = new Volume(15, 5, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.1365225, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToLiter2(){
+        Volume vol = new Volume(15, 5, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1136.5225, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToMilliliter1(){
+        Volume vol = new Volume(15, 6, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1136.5225, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToMilliliter2(){
+        Volume vol = new Volume(15, 6, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1136522.5, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToUSGallon1(){
+        Volume vol = new Volume(15, 7, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.3002376229, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToUSGallon2(){
+        Volume vol = new Volume(15, 7, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(300.23762287, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToUSQuart1(){
+        Volume vol = new Volume(15, 8, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.2009504915, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToUSQuart2(){
+        Volume vol = new Volume(15, 8, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1200.9504915, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToUSPint1(){
+        Volume vol = new Volume(15, 9, 1);
+        double result = vol.getConversionResult();
+        assertEquals(2.401900983, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToUSPint2(){
+        Volume vol = new Volume(15, 9, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(2401.900983, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToUSCup1(){
+        Volume vol = new Volume(15, 10, 1);
+        double result = vol.getConversionResult();
+        assertEquals(4.803801966, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToUSCup2(){
+        Volume vol = new Volume(15, 10, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(4803.801966, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToUSFluidOunce1(){
+        Volume vol = new Volume(15, 11, 1);
+        double result = vol.getConversionResult();
+        assertEquals(38.430415728, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToUSFluidOunce2(){
+        Volume vol = new Volume(15, 11, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(38430.415728, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToUSTableSpoon1(){
+        Volume vol = new Volume(15, 12, 1);
+        double result = vol.getConversionResult();
+        assertEquals(76.860831456, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToUSTableSpoon2(){
+        Volume vol = new Volume(15, 12, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(76860.831456, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToUSTeaSpoon1(){
+        Volume vol = new Volume(15, 13, 1);
+        double result = vol.getConversionResult();
+        assertEquals(230.58249437, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToUSTeaSpoon2(){
+        Volume vol = new Volume(15, 13, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(230582.49437, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToImperialGallon1(){
+        Volume vol = new Volume(15, 14, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.25, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToImperialGallon2(){
+        Volume vol = new Volume(15, 14, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(250, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToImperialPint1(){
+        Volume vol = new Volume(15, 16, 1);
+        double result = vol.getConversionResult();
+        assertEquals(2, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToImperialPint2(){
+        Volume vol = new Volume(15, 16, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(2000, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToImperialFluidOunce1(){
+        Volume vol = new Volume(15, 17, 1);
+        double result = vol.getConversionResult();
+        assertEquals(40, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToImperialFluidOunce2(){
+        Volume vol = new Volume(15, 17, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(40000, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToImperialTableSpoon1(){
+        Volume vol = new Volume(15, 18, 1);
+        double result = vol.getConversionResult();
+        assertEquals(64, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToImperialTableSpoon2(){
+        Volume vol = new Volume(15, 18, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(64000, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToImperialTeaSpoon1(){
+        Volume vol = new Volume(15, 19, 1);
+        double result = vol.getConversionResult();
+        assertEquals(192, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToImperialTeaSpoon2(){
+        Volume vol = new Volume(15, 19, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(192000, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToCubicMile1(){
+        Volume vol = new Volume(15, 20, 1);
+        double result = vol.getConversionResult();
+        assertEquals(2.726663675E-13, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToCubicMile2(){
+        Volume vol = new Volume(15, 20, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(2.726663675E-10, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToCubicYard1(){
+        Volume vol = new Volume(15, 21, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0014865153, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToCubicYard2(){
+        Volume vol = new Volume(15, 21, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.4865153077, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToCubicFoot1(){
+        Volume vol = new Volume(15, 22, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0401359133, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToCubicFoot2(){
+        Volume vol = new Volume(15, 22, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(40.135913309, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToCubicInch1(){
+        Volume vol = new Volume(15, 23, 1);
+        double result = vol.getConversionResult();
+        assertEquals(69.354858198, result, DELTA);
+    }
+    @Test
+    public void testImperialQuartToCubicInch2(){
+        Volume vol = new Volume(15, 23, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(69354.858198, result, DELTA);
+    }
+
+    //Imperial Fluid Ounce To ... Test
+    @Test
+    public void testImperialFluidOunceToCbMeter1(){
+        Volume vol = new Volume(17, 1, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0000284131, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToCbMeter2(){
+        Volume vol = new Volume(17, 1, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(0.0284130625, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToCbKilometer1(){
+        Volume vol = new Volume(17, 2, 1);
+        double result = vol.getConversionResult();
+        assertEquals(2.84130625E-14, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToCbKilometer2(){
+        Volume vol = new Volume(17, 2, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(2.84130625E-11, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToCbCentimeter1(){
+        Volume vol = new Volume(17, 3, 1);
+        double result = vol.getConversionResult();
+        assertEquals(28.4130625, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToCbCentimeter2(){
+        Volume vol = new Volume(17, 3, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(28413.0625, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToCbMillimeter1(){
+        Volume vol = new Volume(17, 4, 1);
+        double result = vol.getConversionResult();
+        assertEquals(28413.0625, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToCbMillimeter2(){
+        Volume vol = new Volume(17, 4, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(2.841304613426301E7, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToLiter1(){
+        Volume vol = new Volume(17, 5, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0284130625, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToLiter2(){
+        Volume vol = new Volume(17, 5, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(28.4130625, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToMilliliter1(){
+        Volume vol = new Volume(17, 6, 1);
+        double result = vol.getConversionResult();
+        assertEquals(28.4130625, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToMilliliter2(){
+        Volume vol = new Volume(17, 6, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(28413.0625, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToUSGallon1(){
+        Volume vol = new Volume(17, 7, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0075059406, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToUSGallon2(){
+        Volume vol = new Volume(17, 7, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(7.5059405718, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToUSQuart1(){
+        Volume vol = new Volume(17, 8, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0300237623, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToUSQuart2(){
+        Volume vol = new Volume(17, 8, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(30.023762287, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToUSPint1(){
+        Volume vol = new Volume(17, 9, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0600475246, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToUSPint2(){
+        Volume vol = new Volume(17, 9, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(60.047524575, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToUSCup1(){
+        Volume vol = new Volume(17, 10, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.1200950491, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToUSCup2(){
+        Volume vol = new Volume(17, 10, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(120.09504915, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToUSFluidOunce1(){
+        Volume vol = new Volume(17, 11, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.9607603932, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToUSFluidOunce2(){
+        Volume vol = new Volume(17, 11, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(960.76039319, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToUSTableSpoon1(){
+        Volume vol = new Volume(17, 12, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.9215207864, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToUSTableSpoon2(){
+        Volume vol = new Volume(17, 12, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1921.5207864, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToUSTeaSpoon1(){
+        Volume vol = new Volume(17, 13, 1);
+        double result = vol.getConversionResult();
+        assertEquals(5.7645623592, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToUSTeaSpoon2(){
+        Volume vol = new Volume(17, 13, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(5764.5623592, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToImperialGallon1(){
+        Volume vol = new Volume(17, 14, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.00625, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToImperialGallon2(){
+        Volume vol = new Volume(17, 14, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(6.25, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToImperialQuart1(){
+        Volume vol = new Volume(17, 15, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.025, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToImperialQuart2(){
+        Volume vol = new Volume(17, 15, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(25, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToImperialPint1(){
+        Volume vol = new Volume(17, 16, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.05, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToImperialPint2(){
+        Volume vol = new Volume(17, 16, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(50, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToImperialTableSpoon1(){
+        Volume vol = new Volume(17, 18, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.6, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToImperialTableSpoon2(){
+        Volume vol = new Volume(17, 18, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1600, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToImperialTeaSpoon1(){
+        Volume vol = new Volume(17, 19, 1);
+        double result = vol.getConversionResult();
+        assertEquals(4.8, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToImperialTeaSpoon2(){
+        Volume vol = new Volume(17, 19, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(4800, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToCubicMile1(){
+        Volume vol = new Volume(17, 20, 1);
+        double result = vol.getConversionResult();
+        assertEquals(6.816659189E-15, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToCubicMile2(){
+        Volume vol = new Volume(17, 20, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(6.816659189E-12, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToCubicYard1(){
+        Volume vol = new Volume(17, 21, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0000371629, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToCubicYard2(){
+        Volume vol = new Volume(17, 21, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(0.0371628827, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToCubicFoot1(){
+        Volume vol = new Volume(17, 22, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0010033978, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToCubicFoot2(){
+        Volume vol = new Volume(17, 22, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.0033978327, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToCubicInch1(){
+        Volume vol = new Volume(17, 23, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.7338714549, result, DELTA);
+    }
+    @Test
+    public void testImperialFluidOunceToCubicInch2(){
+        Volume vol = new Volume(17, 23, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1733.8714549, result, DELTA);
+    }
+
+    //Imperial Table Spoon To ... Test
+    @Test
+    public void testImperialTableSpoonToCbMeter1(){
+        Volume vol = new Volume(18, 1, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0000177582, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToCbMeter2(){
+        Volume vol = new Volume(18, 1, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(0.0177581641, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToCbKilometer1(){
+        Volume vol = new Volume(18, 2, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.775816406E-14, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToCbKilometer2(){
+        Volume vol = new Volume(18, 2, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.775816406E-11, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToCbCentimeter1(){
+        Volume vol = new Volume(18, 3, 1);
+        double result = vol.getConversionResult();
+        assertEquals(17.758164063, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToCbCentimeter2(){
+        Volume vol = new Volume(18, 3, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(17758.164063, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToCbMillimeter1(){
+        Volume vol = new Volume(18, 4, 1);
+        double result = vol.getConversionResult();
+        assertEquals(17758.164063, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToCbMillimeter2(){
+        Volume vol = new Volume(18, 4, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.7758172755056195E7, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpooneToLiter1(){
+        Volume vol = new Volume(18, 5, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0177581641, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToLiter2(){
+        Volume vol = new Volume(18, 5, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(17.758164063, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToMilliliter1(){
+        Volume vol = new Volume(18, 6, 1);
+        double result = vol.getConversionResult();
+        assertEquals(17.758164063, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToMilliliter2(){
+        Volume vol = new Volume(18, 6, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(17758.164063, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToUSGallon1(){
+        Volume vol = new Volume(18, 7, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0046912129, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToUSGallon2(){
+        Volume vol = new Volume(18, 7, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(4.6912128574, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToUSQuart1(){
+        Volume vol = new Volume(18, 8, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0187648514, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToUSQuart2(){
+        Volume vol = new Volume(18, 8, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(18.76485143, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToUSPint1(){
+        Volume vol = new Volume(18, 9, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0375297029, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToUSPint2(){
+        Volume vol = new Volume(18, 9, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(37.529702859, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToUSCup1(){
+        Volume vol = new Volume(18, 10, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0750594057, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToUSCup2(){
+        Volume vol = new Volume(18, 10, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(75.059405718, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToUSFluidOunce1(){
+        Volume vol = new Volume(18, 11, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.6004752457, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToUSFluidOunce2(){
+        Volume vol = new Volume(18, 11, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(600.47524575, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToUSTableSpoon1(){
+        Volume vol = new Volume(18, 12, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.2009504915, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToUSTableSpoon2(){
+        Volume vol = new Volume(18, 12, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1200.9504915, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToUSTeaSpoon1(){
+        Volume vol = new Volume(18, 13, 1);
+        double result = vol.getConversionResult();
+        assertEquals(3.6028514745, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToUSTeaSpoon2(){
+        Volume vol = new Volume(18, 13, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(3602.8514745, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToImperialGallon1(){
+        Volume vol = new Volume(18, 14, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.00390625, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToImperialGallon2(){
+        Volume vol = new Volume(18, 14, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(3.90625, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToImperialQuart1(){
+        Volume vol = new Volume(18, 15, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.015625, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToImperialQuart2(){
+        Volume vol = new Volume(18, 15, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(15.625, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToImperialPint1(){
+        Volume vol = new Volume(18, 16, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.03125, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToImperialPint2(){
+        Volume vol = new Volume(18, 16, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(31.25, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToImperialFluidOunce1(){
+        Volume vol = new Volume(18, 17, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.625, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToImperialFluidOunce2(){
+        Volume vol = new Volume(18, 17, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(625, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToImperialTeaSpoon1(){
+        Volume vol = new Volume(18, 19, 1);
+        double result = vol.getConversionResult();
+        assertEquals(3, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToImperialTeaSpoon2(){
+        Volume vol = new Volume(18, 19, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(3000, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToCubicMile1(){
+        Volume vol = new Volume(18, 20, 1);
+        double result = vol.getConversionResult();
+        assertEquals(4.260411993E-15, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToCubicMile2(){
+        Volume vol = new Volume(18, 20, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(4.260411993E-12, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToCubicYard1(){
+        Volume vol = new Volume(18, 21, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0000232268, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToCubicYard2(){
+        Volume vol = new Volume(18, 21, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(0.0232268017, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToCubicFoot1(){
+        Volume vol = new Volume(18, 22, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0006271236, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToCubicFoot2(){
+        Volume vol = new Volume(18, 22, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(0.6271236455, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToCubicInch1(){
+        Volume vol = new Volume(18, 23, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.0836696593, result, DELTA);
+    }
+    @Test
+    public void testImperialTableSpoonToCubicInch2(){
+        Volume vol = new Volume(18, 23, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1083.6696593, result, DELTA);
+    }
+
+
+    //Imperial Tea Spoon To ... Test
+    @Test
+    public void testImperialTeaSpoonToCbMeter1(){
+        Volume vol = new Volume(19, 1, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0000059194, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToCbMeter2(){
+        Volume vol = new Volume(19, 1, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(0.005919388, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToCbKilometer1(){
+        Volume vol = new Volume(19, 2, 1);
+        double result = vol.getConversionResult();
+        assertEquals(5.91938802E-15, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToCbKilometer2(){
+        Volume vol = new Volume(19, 2, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(5.91938802E-12, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToCbCentimeter1(){
+        Volume vol = new Volume(19, 3, 1);
+        double result = vol.getConversionResult();
+        assertEquals(5.9193880208, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToCbCentimeter2(){
+        Volume vol = new Volume(19, 3, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(5919.3880208, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToCbMillimeter1(){
+        Volume vol = new Volume(19, 4, 1);
+        double result = vol.getConversionResult();
+        assertEquals(5919.3880208, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToCbMillimeter2(){
+        Volume vol = new Volume(19, 4, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(5919388.0208, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToLiter1(){
+        Volume vol = new Volume(19, 5, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.005919388, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToLiter2(){
+        Volume vol = new Volume(19, 5, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(5.9193880208, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToMilliliter1(){
+        Volume vol = new Volume(19, 6, 1);
+        double result = vol.getConversionResult();
+        assertEquals(5.9193880208, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToMilliliter2(){
+        Volume vol = new Volume(19, 6, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(5919.3880208, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToUSGallon1(){
+        Volume vol = new Volume(19, 7, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0015637376, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToUSGallon2(){
+        Volume vol = new Volume(19, 7, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.5637376191, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToUSQuart1(){
+        Volume vol = new Volume(19, 8, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0062549505, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToUSQuart2(){
+        Volume vol = new Volume(19, 8, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(6.2549504765, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToUSPint1(){
+        Volume vol = new Volume(19, 9, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.012509901, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToUSPint2(){
+        Volume vol = new Volume(19, 9, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(12.509900953, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToUSCup1(){
+        Volume vol = new Volume(19, 10, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0250198019, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToUSCup2(){
+        Volume vol = new Volume(19, 10, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(25.019801906, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToUSFluidOunce1(){
+        Volume vol = new Volume(19, 11, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.2001584152, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToUSFluidOunce2(){
+        Volume vol = new Volume(19, 11, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(200.15841525, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToUSTableSpoon1(){
+        Volume vol = new Volume(19, 12, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.4003168305, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToUSTableSpoon2(){
+        Volume vol = new Volume(19, 12, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(400.3168305, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToUSTeaSpoon1(){
+        Volume vol = new Volume(19, 13, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.2009504915, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToUSTeaSpoon2(){
+        Volume vol = new Volume(19, 13, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1200.9504915, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToImperialGallon1(){
+        Volume vol = new Volume(19, 14, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0013020833, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToImperialGallon2(){
+        Volume vol = new Volume(19, 14, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.3020833333, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToImperialQuart1(){
+        Volume vol = new Volume(19, 15, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0052083333, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToImperialQuart2(){
+        Volume vol = new Volume(19, 15, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(5.2083333333, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToImperialPint1(){
+        Volume vol = new Volume(19, 16, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0104166667, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToImperialPint2(){
+        Volume vol = new Volume(19, 16, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(10.416666667, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToImperialFluidOunce1(){
+        Volume vol = new Volume(19, 17, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.2083333333, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToImperialFluidOunce2(){
+        Volume vol = new Volume(19, 17, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(208.33333333, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToImperialTableSpoon1(){
+        Volume vol = new Volume(19, 18, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.3333333333, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToImperialTableSpoon2(){
+        Volume vol = new Volume(19, 18, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(333.33333333, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToCubicMile1(){
+        Volume vol = new Volume(19, 20, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.420137331E-15, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToCubicMile2(){
+        Volume vol = new Volume(19, 20, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.420137331E-12, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToCubicYard1(){
+        Volume vol = new Volume(19, 21, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0000077423, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToCubicYard2(){
+        Volume vol = new Volume(19, 21, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(0.0077422672, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToCubicFoot1(){
+        Volume vol = new Volume(19, 22, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0002090412, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToCubicFoot2(){
+        Volume vol = new Volume(19, 22, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(0.2090412152, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToCubicInch1(){
+        Volume vol = new Volume(19, 23, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.3612232198, result, DELTA);
+    }
+    @Test
+    public void testImperialTeaSpoonToCubicInch2(){
+        Volume vol = new Volume(19, 23, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(361.22321978, result, DELTA);
+    }
+
+    //Cubic Mile To ... Test
+    @Test
+    public void testCubicMileToCbMeter1(){
+        Volume vol = new Volume(20, 1, 1);
+        double result = vol.getConversionResult();
+        assertEquals(4168180000D, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToCbMeter2(){
+        Volume vol = new Volume(20, 1, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(4.168180000832602E12, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToCbKilometer1(){
+        Volume vol = new Volume(20, 2, 1);
+        double result = vol.getConversionResult();
+        assertEquals(4.16818, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToCbKilometer2(){
+        Volume vol = new Volume(20, 2, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(4168.18, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToCbCentimeter1(){
+        Volume vol = new Volume(20, 3, 1);
+        double result = vol.getConversionResult();
+        assertEquals(4.1681800008326025E15, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToCbCentimeter2(){
+        Volume vol = new Volume(20, 3, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(4.1681800008326026E18, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToCbMillimeter1(){
+        Volume vol = new Volume(20, 4, 1);
+        double result = vol.getConversionResult();
+        assertEquals(4.1681800008326026E18, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToCbMillimeter2(){
+        Volume vol = new Volume(20, 4, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(4.168180000832603E21, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToLiter1(){
+        Volume vol = new Volume(20, 5, 1);
+        double result = vol.getConversionResult();
+        assertEquals(4.1681800008326025E12, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToLiter2(){
+        Volume vol = new Volume(20, 5, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(4.1681800008326025E15, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToMilliliter1(){
+        Volume vol = new Volume(20, 6, 1);
+        double result = vol.getConversionResult();
+        assertEquals(4.1681800008326025E15, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToMilliliter2(){
+        Volume vol = new Volume(20, 6, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(4.1681800008326026E18, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToUSGallon1(){
+        Volume vol = new Volume(20, 7, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.101117184234729E12, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToUSGallon2(){
+        Volume vol = new Volume(20, 7, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.101117184234729E15, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToUSQuart1(){
+        Volume vol = new Volume(20, 8, 1);
+        double result = vol.getConversionResult();
+        assertEquals(4.404468738393867E12, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToUSQuart2(){
+        Volume vol = new Volume(20, 8, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(4.404468738393867E15, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToUSPint1(){
+        Volume vol = new Volume(20, 9, 1);
+        double result = vol.getConversionResult();
+        assertEquals(8.808937476787734E12, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToUSPint2(){
+        Volume vol = new Volume(20, 9, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(8.808937476787734E15, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToUSCup1(){
+        Volume vol = new Volume(20, 10, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.761787494736768E13, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToUSCup2(){
+        Volume vol = new Volume(20, 10, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.7617874947367678E16, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToUSFluidOunce1(){
+        Volume vol = new Volume(20, 11, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.4094299958390766E14, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToUSFluidOunce2(){
+        Volume vol = new Volume(20, 11, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.40942999583907664E17, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToUSTableSpoon1(){
+        Volume vol = new Volume(20, 12, 1);
+        double result = vol.getConversionResult();
+        assertEquals(2.818859992075452E14, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToUSTableSpoon2(){
+        Volume vol = new Volume(20, 12, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(2.81885999207545152E17, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToUSTeaSpoon1(){
+        Volume vol = new Volume(20, 13, 1);
+        double result = vol.getConversionResult();
+        assertEquals(8.456579980993938E14, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToUSTeaSpoon2(){
+        Volume vol = new Volume(20, 13, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(8.4565799809939379E17, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToImperialGallon1(){
+        Volume vol = new Volume(20, 14, 1);
+        double result = vol.getConversionResult();
+        assertEquals(9.168714216284852E11, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToImperialGallon2(){
+        Volume vol = new Volume(20, 14, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(9.168714216284852E14, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToImperialQuart1(){
+        Volume vol = new Volume(20, 15, 1);
+        double result = vol.getConversionResult();
+        assertEquals(3.667485686513941E12, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToImperialQuart2(){
+        Volume vol = new Volume(20, 15, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(3.667485686513941E15, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToImperialPint1(){
+        Volume vol = new Volume(20, 16, 1);
+        double result = vol.getConversionResult();
+        assertEquals(7.334971375717972E12, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToImperialPint2(){
+        Volume vol = new Volume(20, 16, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(7.334971375717972E15, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToImperialFluidOunce1(){
+        Volume vol = new Volume(20, 17, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.4669942742827656E14, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToImperialFluidOunce2(){
+        Volume vol = new Volume(20, 17, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.46699427428276576E17, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToImperialTableSpoon1(){
+        Volume vol = new Volume(20, 18, 1);
+        double result = vol.getConversionResult();
+        assertEquals(2.3471908389212912E14, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToImperialTableSpoon2(){
+        Volume vol = new Volume(20, 18, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(2.3471908389212912E17, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToImperialTeaSpoon1(){
+        Volume vol = new Volume(20, 19, 1);
+        double result = vol.getConversionResult();
+        assertEquals(7.041572516763874E14, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToImperialTeaSpoon2(){
+        Volume vol = new Volume(20, 19, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(7.0415725167638733E17, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToCubicYard1(){
+        Volume vol = new Volume(20, 21, 1);
+        double result = vol.getConversionResult();
+        assertEquals(5451773612.4, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToCubicYard2(){
+        Volume vol = new Volume(20, 21, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(5.4517736124E12, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToCubicFoot1(){
+        Volume vol = new Volume(20, 22, 1);
+        double result = vol.getConversionResult();
+        assertEquals(147197887535D, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToCubicFoot2(){
+        Volume vol = new Volume(20, 22, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.47197887535E14, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToCubicInch1(){
+        Volume vol = new Volume(20, 23, 1);
+        double result = vol.getConversionResult();
+        assertEquals(254357949660781D, result, DELTA);
+    }
+    @Test
+    public void testCubicMileToCubicInch2(){
+        Volume vol = new Volume(20, 23, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(2.54357949660780992E17, result, DELTA);
+    }
+
+    //Cubic Yard To ... Test
+    @Test
+    public void testCubicYardToCbMeter1(){
+        Volume vol = new Volume(21, 1, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.764554858, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToCbMeter2(){
+        Volume vol = new Volume(21, 1, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(764.55485798, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToCbKilometer1(){
+        Volume vol = new Volume(21, 2, 1);
+        double result = vol.getConversionResult();
+        assertEquals(7.645548579E-10, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToCbKilometer2(){
+        Volume vol = new Volume(21, 2, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(7.645548579E-7, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToCbCentimeter1(){
+        Volume vol = new Volume(21, 3, 1);
+        double result = vol.getConversionResult();
+        assertEquals(764525.9938837921, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToCbCentimeter2(){
+        Volume vol = new Volume(21, 3, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(7.64525993883792E8, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToCbMillimeter1(){
+        Volume vol = new Volume(21, 4, 1);
+        double result = vol.getConversionResult();
+        assertEquals(764554857.98, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToCbMillimeter2(){
+        Volume vol = new Volume(21, 4, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(7.645548581677761E11, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToLiter1(){
+        Volume vol = new Volume(21, 5, 1);
+        double result = vol.getConversionResult();
+        assertEquals(764.55485798, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToLiter2(){
+        Volume vol = new Volume(21, 5, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(764554.85798, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToMilliliter1(){
+        Volume vol = new Volume(21, 6, 1);
+        double result = vol.getConversionResult();
+        assertEquals(764525.9938837921, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToMilliliter2(){
+        Volume vol = new Volume(21, 6, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(7.64525993883792E8, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToUSGallon1(){
+        Volume vol = new Volume(21, 7, 1);
+        double result = vol.getConversionResult();
+        assertEquals(201.97412116, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToUSGallon2(){
+        Volume vol = new Volume(21, 7, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(201974.12116, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToUSQuart1(){
+        Volume vol = new Volume(21, 8, 1);
+        double result = vol.getConversionResult();
+        assertEquals(807.89648464, result, DELTA);
+    }
+    @Test
+    public void testCubicMYardToUSQuart2(){
+        Volume vol = new Volume(21, 8, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(807896.48464, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToUSPint1(){
+        Volume vol = new Volume(21, 9, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1615.79296932, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToUSPint2(){
+        Volume vol = new Volume(21, 9, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1615792.9693, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToUSCup1(){
+        Volume vol = new Volume(21, 10, 1);
+        double result = vol.getConversionResult();
+        assertEquals(3231.5859386, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToUSCup2(){
+        Volume vol = new Volume(21, 10, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(3231585.9386, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToUSFluidOunce1(){
+        Volume vol = new Volume(21, 11, 1);
+        double result = vol.getConversionResult();
+        assertEquals(25852.687509, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToUSFluidOunce2(){
+        Volume vol = new Volume(21, 11, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(2.585268622336204E7, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToUSTableSpoon1(){
+        Volume vol = new Volume(21, 12, 1);
+        double result = vol.getConversionResult();
+        assertEquals(51705.375017, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToUSTableSpoon2(){
+        Volume vol = new Volume(21, 12, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(5.1705506119346656E7, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToUSTeaSpoon1(){
+        Volume vol = new Volume(21, 13, 1);
+        double result = vol.getConversionResult();
+        assertEquals(155116.12505, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToUSTeaSpoon2(){
+        Volume vol = new Volume(21, 13, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.5511571632437798E8, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToImperialGallon1(){
+        Volume vol = new Volume(21, 14, 1);
+        double result = vol.getConversionResult();
+        assertEquals(168.17855739, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToImperialGallon2(){
+        Volume vol = new Volume(21, 14, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(168178.55739, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToImperialQuart1(){
+        Volume vol = new Volume(21, 15, 1);
+        double result = vol.getConversionResult();
+        assertEquals(672.714229582, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToImperialQuart2(){
+        Volume vol = new Volume(21, 15, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(672714.22958, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToImperialPint1(){
+        Volume vol = new Volume(21, 16, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1345.4284592, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToImperialPint2(){
+        Volume vol = new Volume(21, 16, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1345428.4592, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToImperialFluidOunce1(){
+        Volume vol = new Volume(21, 17, 1);
+        double result = vol.getConversionResult();
+        assertEquals(26908.569183, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToImperialFluidOunce2(){
+        Volume vol = new Volume(21, 17, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(2.6908556651929744E7, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToImperialTableSpoon1(){
+        Volume vol = new Volume(21, 18, 1);
+        double result = vol.getConversionResult();
+        assertEquals(43053.710693, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToImperialTableSpoon2(){
+        Volume vol = new Volume(21, 18, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(4.305371381335354E7, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToImperialTeaSpoon1(){
+        Volume vol = new Volume(21, 19, 1);
+        double result = vol.getConversionResult();
+        assertEquals(129161.13208, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToImperialTeaSpoon2(){
+        Volume vol = new Volume(21, 19, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.2916058535577282E8, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToCubicMile1(){
+        Volume vol = new Volume(21, 20, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.834265453E-10, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToCubicMile2(){
+        Volume vol = new Volume(21, 20, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.834265453E-7, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToCubicFoot1(){
+        Volume vol = new Volume(21, 22, 1);
+        double result = vol.getConversionResult();
+        assertEquals(27, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToCubicFoot2(){
+        Volume vol = new Volume(21, 22, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(27000, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToCubicInch1(){
+        Volume vol = new Volume(21, 23, 1);
+        double result = vol.getConversionResult();
+        assertEquals(46656, result, DELTA);
+    }
+    @Test
+    public void testCubicYardToCubicInch2(){
+        Volume vol = new Volume(21, 23, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(46656000, result, DELTA);
+    }
+
+    //Cubic Foot To ... Test
+    @Test
+    public void testCubicFootToCbMeter1(){
+        Volume vol = new Volume(22, 1, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0283168466, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToCbMeter2(){
+        Volume vol = new Volume(22, 1, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(28.316846592, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToCbKilometer1(){
+        Volume vol = new Volume(22, 2, 1);
+        double result = vol.getConversionResult();
+        assertEquals(2.831684659E-11, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToCbKilometer2(){
+        Volume vol = new Volume(22, 2, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(2.831684659E-8, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToCbCentimeter1(){
+        Volume vol = new Volume(22, 3, 1);
+        double result = vol.getConversionResult();
+        assertEquals(28316.846592, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToCbCentimeter2(){
+        Volume vol = new Volume(22, 3, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(2.8316819907857064E7, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToCbMillimeter1(){
+        Volume vol = new Volume(22, 4, 1);
+        double result = vol.getConversionResult();
+        assertEquals(28316846.592, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToCbMillimeter2(){
+        Volume vol = new Volume(22, 4, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(2.8316846593193615E10, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToLiter1(){
+        Volume vol = new Volume(22, 5, 1);
+        double result = vol.getConversionResult();
+        assertEquals(28.316846592, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToLiter2(){
+        Volume vol = new Volume(22, 5, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(28316.846592, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToMilliliter1(){
+        Volume vol = new Volume(22, 6, 1);
+        double result = vol.getConversionResult();
+        assertEquals(28316.846592, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToMilliliter2(){
+        Volume vol = new Volume(22, 6, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(2.8316819907857064E7, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToUSGallon1(){
+        Volume vol = new Volume(22, 7, 1);
+        double result = vol.getConversionResult();
+        assertEquals(7.480523006, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToUSGallon2(){
+        Volume vol = new Volume(22, 7, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(7480.523006, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToUSQuart1(){
+        Volume vol = new Volume(22, 8, 1);
+        double result = vol.getConversionResult();
+        assertEquals(29.922092024, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToUSQuart2(){
+        Volume vol = new Volume(22, 8, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(29922.092024, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToUSPint1(){
+        Volume vol = new Volume(22, 9, 1);
+        double result = vol.getConversionResult();
+        assertEquals(59.844184048, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToUSPint2(){
+        Volume vol = new Volume(22, 9, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(59844.184048, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToUSCup1(){
+        Volume vol = new Volume(22, 10, 1);
+        double result = vol.getConversionResult();
+        assertEquals(119.6883681, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToUSCup2(){
+        Volume vol = new Volume(22, 10, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(119688.3681, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToUSFluidOunce1(){
+        Volume vol = new Volume(22, 11, 1);
+        double result = vol.getConversionResult();
+        assertEquals(957.50694476, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToUSFluidOunce2(){
+        Volume vol = new Volume(22, 11, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(957506.94476, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToUSTableSpoon1(){
+        Volume vol = new Volume(22, 12, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1915.0138895, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToUSTableSpoon2(){
+        Volume vol = new Volume(22, 12, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1915013.8895, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToUSTeaSpoon1(){
+        Volume vol = new Volume(22, 13, 1);
+        double result = vol.getConversionResult();
+        assertEquals(5745.0416686, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToUSTeaSpoon2(){
+        Volume vol = new Volume(22, 13, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(5745043.033244841, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToImperialGallon1(){
+        Volume vol = new Volume(22, 14, 1);
+        double result = vol.getConversionResult();
+        assertEquals(6.228835459, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToImperialGallon2(){
+        Volume vol = new Volume(22, 14, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(6228.835459, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToImperialQuart1(){
+        Volume vol = new Volume(22, 15, 1);
+        double result = vol.getConversionResult();
+        assertEquals(24.915341836, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToImperialQuart2(){
+        Volume vol = new Volume(22, 15, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(24915.341836, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToImperialPint1(){
+        Volume vol = new Volume(22, 16, 1);
+        double result = vol.getConversionResult();
+        assertEquals(49.830683672, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToImperialPint2(){
+        Volume vol = new Volume(22, 16, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(49830.683672, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToImperialFluidOunce1(){
+        Volume vol = new Volume(22, 17, 1);
+        double result = vol.getConversionResult();
+        assertEquals(996.61367345, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToImperialFluidOunce2(){
+        Volume vol = new Volume(22, 17, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(996613.67345, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToImperialTableSpoon1(){
+        Volume vol = new Volume(22, 18, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1594.5818775, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToImperialTableSpoon2(){
+        Volume vol = new Volume(22, 18, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1594581.8775, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToImperialTeaSpoon1(){
+        Volume vol = new Volume(22, 19, 1);
+        double result = vol.getConversionResult();
+        assertEquals(4783.7456325, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToImperialTeaSpoon2(){
+        Volume vol = new Volume(22, 19, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(4783745.6325, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToCubicMile1(){
+        Volume vol = new Volume(22, 20, 1);
+        double result = vol.getConversionResult();
+        assertEquals(6.793575755E-12, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToCubicMile2(){
+        Volume vol = new Volume(22, 20, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(6.793575755E-9, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToCubicYard1(){
+        Volume vol = new Volume(22, 21, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.037037037, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToCubicYard2(){
+        Volume vol = new Volume(22, 21, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(37.037037037, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToCubicInch1(){
+        Volume vol = new Volume(22, 23, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1728, result, DELTA);
+    }
+    @Test
+    public void testCubicFootToCubicInch2(){
+        Volume vol = new Volume(22, 23, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1728000, result, DELTA);
+    }
+
+    //Cubic Inch To ... Test
+    @Test
+    public void testCubicInchToCbMeter1(){
+        Volume vol = new Volume(23, 1, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0000163871, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToCbMeter2(){
+        Volume vol = new Volume(23, 1, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(0.016387064, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToCbKilometer1(){
+        Volume vol = new Volume(23, 2, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.6387064E-14, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToCbKilometer2(){
+        Volume vol = new Volume(23, 2, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.6387064E-11, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToCbCentimeter1(){
+        Volume vol = new Volume(23, 3, 1);
+        double result = vol.getConversionResult();
+        assertEquals(16.387064, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToCbCentimeter2(){
+        Volume vol = new Volume(23, 3, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(16387.064, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToCbMillimeter1(){
+        Volume vol = new Volume(23, 4, 1);
+        double result = vol.getConversionResult();
+        assertEquals(16387.064, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToCbMillimeter2(){
+        Volume vol = new Volume(23, 4, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1.6387075841025699E7, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToLiter1(){
+        Volume vol = new Volume(23, 5, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.016387064, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToLiter2(){
+        Volume vol = new Volume(23, 5, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(16.387064, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToMilliliter1(){
+        Volume vol = new Volume(23, 6, 1);
+        double result = vol.getConversionResult();
+        assertEquals(16.387064, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToMilliliter2(){
+        Volume vol = new Volume(23, 6, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(16387.064, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToUSGallon1(){
+        Volume vol = new Volume(23, 7, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0043290064, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToUSGallon2(){
+        Volume vol = new Volume(23, 7, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(4.3290063692, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToUSQuart1(){
+        Volume vol = new Volume(23, 8, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0173160255, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToUSQuart2(){
+        Volume vol = new Volume(23, 8, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(17.316025477, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToUSPint1(){
+        Volume vol = new Volume(23, 9, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.034632051, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToUSPint2(){
+        Volume vol = new Volume(23, 9, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(34.632050954, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToUSCup1(){
+        Volume vol = new Volume(23, 10, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0692641019, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToUSCup2(){
+        Volume vol = new Volume(23, 10, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(69.264101907, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToUSFluidOunce1(){
+        Volume vol = new Volume(23, 11, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.5541128153, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToUSFluidOunce2(){
+        Volume vol = new Volume(23, 11, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(554.11281526, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToUSTableSpoon1(){
+        Volume vol = new Volume(23, 12, 1);
+        double result = vol.getConversionResult();
+        assertEquals(1.1082256305, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToUSTableSpoon2(){
+        Volume vol = new Volume(23, 12, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(1108.2256305, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToUSTeaSpoon1(){
+        Volume vol = new Volume(23, 13, 1);
+        double result = vol.getConversionResult();
+        assertEquals(3.3246768915, result, DELTA);
+    }
+    @Test
+    public void testCubicInchoUSTeaSpoon2(){
+        Volume vol = new Volume(23, 13, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(3324.6768915, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToImperialGallon1(){
+        Volume vol = new Volume(23, 14, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0036046501, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToImperialGallon2(){
+        Volume vol = new Volume(23, 14, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(3.6046501499, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToImperialQuart1(){
+        Volume vol = new Volume(23, 15, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0144186006, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToImperialQuart2(){
+        Volume vol = new Volume(23, 15, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(14.4186006, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToImperialPint1(){
+        Volume vol = new Volume(23, 16, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0288372012, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToImperialPint2(){
+        Volume vol = new Volume(23, 16, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(28.837201199, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToImperialFluidOunce1(){
+        Volume vol = new Volume(23, 17, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.576744024, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToImperialFluidOunce2(){
+        Volume vol = new Volume(23, 17, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(576.74402399, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToImperialTableSpoon1(){
+        Volume vol = new Volume(23, 18, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.9227904384, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToImperialTableSpoon2(){
+        Volume vol = new Volume(23, 18, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(922.79043838, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToImperialTeaSpoon1(){
+        Volume vol = new Volume(23, 19, 1);
+        double result = vol.getConversionResult();
+        assertEquals(2.7683713151, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToImperialTeaSpoon2(){
+        Volume vol = new Volume(23, 19, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(2768.3713151, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToCubicMile1(){
+        Volume vol = new Volume(23, 20, 1);
+        double result = vol.getConversionResult();
+        assertEquals(3.931467451E-15, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToCubicMile2(){
+        Volume vol = new Volume(23, 20, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(3.931467451E-12, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToCubicYard1(){
+        Volume vol = new Volume(23, 21, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0000214335, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToCubicYard2(){
+        Volume vol = new Volume(23, 21, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(0.0214334705, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToCubicFoot1(){
+        Volume vol = new Volume(23, 22, 1);
+        double result = vol.getConversionResult();
+        assertEquals(0.0005787037, result, DELTA);
+    }
+    @Test
+    public void testCubicInchToCubicFoot2(){
+        Volume vol = new Volume(23, 22, 1000);
+        double result = vol.getConversionResult();
+        assertEquals(0.5787037037, result, DELTA);
+    }
 }

@@ -1269,7 +1269,7 @@ class Volume {
                     case 16:
                         conversionResult = imperialPintToImperialTableSpoon(valueToConvert, true);
                         break;
-                    case 18:
+                    case 17:
                         conversionResult = imperialFluidOunceToImperialTableSpoon(valueToConvert, true);
                         break;
                     case 19:
@@ -1340,10 +1340,10 @@ class Volume {
                     case 16:
                         conversionResult = imperialPintToImperialTeaSpoon(valueToConvert, true);
                         break;
-                    case 18:
+                    case 17:
                         conversionResult = imperialFluidOunceToImperialTeaSpoon(valueToConvert, true);
                         break;
-                    case 19:
+                    case 18:
                         conversionResult = imperialTableSpoonToImperialTeaSpoon(valueToConvert, true);
                         break;
                     case 20:
@@ -1411,13 +1411,13 @@ class Volume {
                     case 16:
                         conversionResult = imperialPintToCbMile(valueToConvert, true);
                         break;
-                    case 18:
+                    case 17:
                         conversionResult = imperialFluidOunceToCbMile(valueToConvert, true);
                         break;
-                    case 19:
+                    case 18:
                         conversionResult = imperialTableSpoonToCbMile(valueToConvert, true);
                         break;
-                    case 20:
+                    case 19:
                         conversionResult = imperialTeaSpoonToCbMile(valueToConvert, true);
                         break;
                     case 21:
@@ -1482,16 +1482,16 @@ class Volume {
                     case 16:
                         conversionResult = imperialPintToCbYard(valueToConvert, true);
                         break;
-                    case 18:
+                    case 17:
                         conversionResult = imperialFluidOunceToCbYard(valueToConvert, true);
                         break;
-                    case 19:
+                    case 18:
                         conversionResult = imperialTableSpoonToCbYard(valueToConvert, true);
                         break;
-                    case 20:
+                    case 19:
                         conversionResult = imperialTeaSpoonToCbYard(valueToConvert, true);
                         break;
-                    case 21:
+                    case 20:
                         conversionResult = cbMileToCbYard(valueToConvert, true);
                         break;
                     case 22:
@@ -1553,19 +1553,19 @@ class Volume {
                     case 16:
                         conversionResult = imperialPintToCbFoot(valueToConvert, true);
                         break;
-                    case 18:
+                    case 17:
                         conversionResult = imperialFluidOunceToCbFoot(valueToConvert, true);
                         break;
-                    case 19:
+                    case 18:
                         conversionResult = imperialTableSpoonToCbFoot(valueToConvert, true);
                         break;
-                    case 20:
+                    case 19:
                         conversionResult = imperialTeaSpoonToCbFoot(valueToConvert, true);
                         break;
-                    case 21:
+                    case 20:
                         conversionResult = cbMileToCbFoot(valueToConvert, true);
                         break;
-                    case 22:
+                    case 21:
                         conversionResult = cbYardToCbFoot(valueToConvert, true);
                         break;
                     case 23:
@@ -1577,69 +1577,69 @@ class Volume {
             case 23:
                 switch(into) {
                     case 1:
-                        conversionResult = cbMeterToCbFoot(valueToConvert, true);
+                        conversionResult = cbMeterToCbInch(valueToConvert, true);
                         break;
                     case 2:
-                        conversionResult = cbKilometerToCbFoot(valueToConvert, true);
+                        conversionResult = cbKilometerToCbInch(valueToConvert, true);
                         break;
                     case 3:
-                        conversionResult = cbCentimeterToCbFoot(valueToConvert, true);
+                        conversionResult = cbCentimeterToCbInch(valueToConvert, true);
                         break;
                     case 4:
-                        conversionResult = cbMillimeterToCbFoot(valueToConvert, true);
+                        conversionResult = cbMillimeterToCbInch(valueToConvert, true);
                         break;
                     case 5:
-                        conversionResult = literToCbFoot(valueToConvert, true);
+                        conversionResult = literToCbInch(valueToConvert, true);
                         break;
                     case 6:
-                        conversionResult = milliliterToCbFoot(valueToConvert, true);
+                        conversionResult = milliliterToCbInch(valueToConvert, true);
                         break;
                     case 7:
-                        conversionResult = usGallonToCbFoot(valueToConvert, true);
+                        conversionResult = usGallonToCbInch(valueToConvert, true);
                         break;
                     case 8:
-                        conversionResult = usQuartToCbFoot(valueToConvert, true);
+                        conversionResult = usQuartToCbInch(valueToConvert, true);
                         break;
                     case 9:
-                        conversionResult = usPintToCbFoot(valueToConvert, true);
+                        conversionResult = usPintToCbInch(valueToConvert, true);
                         break;
                     case 10:
-                        conversionResult = usCupToCbFoot(valueToConvert, true);
+                        conversionResult = usCupToCbInch(valueToConvert, true);
                         break;
                     case 11:
-                        conversionResult = usFluidOunceToCbFoot(valueToConvert, true);
+                        conversionResult = usFluidOunceToCbInch(valueToConvert, true);
                         break;
                     case 12:
-                        conversionResult = usTableSpoonToCbFoot(valueToConvert, true);
+                        conversionResult = usTableSpoonToCbInch(valueToConvert, true);
                         break;
                     case 13:
-                        conversionResult = usTeaSpoonToCbFoot(valueToConvert, true);
+                        conversionResult = usTeaSpoonToCbInch(valueToConvert, true);
                         break;
                     case 14:
-                        conversionResult = imperialGallonToCbFoot(valueToConvert, true);
+                        conversionResult = imperialGallonToCbInch(valueToConvert, true);
                         break;
                     case 15:
-                        conversionResult = imperialQuartToCbFoot(valueToConvert, true);
+                        conversionResult = imperialQuartToCbInch(valueToConvert, true);
                         break;
                     case 16:
-                        conversionResult = imperialPintToCbFoot(valueToConvert, true);
+                        conversionResult = imperialPintToCbInch(valueToConvert, true);
+                        break;
+                    case 17:
+                        conversionResult = imperialFluidOunceToCbInch(valueToConvert, true);
                         break;
                     case 18:
-                        conversionResult = imperialFluidOunceToCbFoot(valueToConvert, true);
+                        conversionResult = imperialTableSpoonToCbInch(valueToConvert, true);
                         break;
                     case 19:
-                        conversionResult = imperialTableSpoonToCbFoot(valueToConvert, true);
+                        conversionResult = imperialTeaSpoonToCbInch(valueToConvert, true);
                         break;
                     case 20:
-                        conversionResult = imperialTeaSpoonToCbFoot(valueToConvert, true);
+                        conversionResult = cbMileToCbInch(valueToConvert, true);
                         break;
                     case 21:
-                        conversionResult = cbMileToCbFoot(valueToConvert, true);
+                        conversionResult = cbYardToCbInch(valueToConvert, true);
                         break;
                     case 22:
-                        conversionResult = cbYardToCbFoot(valueToConvert, true);
-                        break;
-                    case 23:
                         conversionResult = cbFootToCbInch(valueToConvert, true);
                         break;
                 }
@@ -3550,7 +3550,7 @@ class Volume {
             convertedValue = valueToConvert * 1.135210691E-13;
         }
         else{
-            convertedValue = valueToConvert / 0.4163368961;
+            convertedValue = valueToConvert / 1.135210691E-13;
         }
         return convertedValue;
     }

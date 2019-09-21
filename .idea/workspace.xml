@@ -4,10 +4,15 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/spookyNullPointer/Length.java" line="289" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbafeeb-22c3-4ab7-be2b-55ede8a7b7e1" name="Default Changelist" comment="">
+    <list default="true" id="6dbafeeb-22c3-4ab7-be2b-55ede8a7b7e1" name="Default Changelist" comment="Finished Volume Tests">
+      <change afterPath="$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/com/spookyNullPointer/WeightTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Volume.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Volume.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spookyNullPointer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spookyNullPointer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spookyNullPointer/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spookyNullPointer/Time.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/spookyNullPointer/Volume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spookyNullPointer/Volume.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spookyNullPointer/Weight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spookyNullPointer/Weight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/com/spookyNullPointer/VolumeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/spookyNullPointer/VolumeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="121" selection-start-line="13" selection-start-column="121" selection-end-line="13" selection-end-column="121" />
+            <state relative-caret-position="510">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -31,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
+            <state relative-caret-position="623">
               <caret line="230" column="8" selection-start-line="230" selection-start-column="8" selection-end-line="230" selection-end-column="8" />
               <folding>
                 <element signature="method#createMenuArray#0;class#Menu#0" />
@@ -48,311 +53,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Length.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="683">
-              <caret line="440" column="4" selection-start-line="440" selection-start-column="4" selection-end-line="450" selection-end-column="5" />
-              <folding>
-                <element signature="e#10529#12084#0" />
-                <element signature="e#12180#13729#0" />
-                <element signature="e#13825#15373#0" />
-                <element signature="e#15469#17015#0" />
-                <element signature="e#17117#18707#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Volume.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="757" column="91" selection-start-line="757" selection-start-column="91" selection-end-line="757" selection-end-column="91" />
-              <folding>
-                <element signature="e#323#3573#0" />
-                <element signature="e#3646#6979#0" />
-                <element signature="e#7052#10404#0" />
-                <element signature="e#10477#13828#0" />
-                <element signature="e#13901#17125#0" />
-                <element signature="e#17198#20506#0" />
-                <element signature="e#20579#23854#0" />
-                <element signature="e#23927#27186#0" />
-                <element signature="e#27259#30503#0" />
-                <element signature="e#30577#33819#0" />
-                <element signature="e#37266#40578#0" />
-                <element signature="e#40651#43962#0" />
-                <element signature="e#44015#47305#0" />
-                <element signature="e#47410#50731#0" />
-                <element signature="e#50806#54123#0" />
-                <element signature="e#54734#58080#0" />
-                <element signature="e#58308#61773#0" />
-                <element signature="e#61872#65335#0" />
-                <element signature="e#65391#68811#0" />
-                <element signature="e#68700#71910#0" />
-                <element signature="e#72008#75217#0" />
-                <element signature="e#75312#78519#0" />
-                <element signature="e#37256#37563#0" />
-                <element signature="e#37569#37881#0" />
-                <element signature="e#37887#38205#0" />
-                <element signature="e#38211#38510#0" />
-                <element signature="e#38516#38826#0" />
-                <element signature="e#38832#39150#0" />
-                <element signature="e#39156#39473#0" />
-                <element signature="e#39479#39795#0" />
-                <element signature="e#39801#40116#0" />
-                <element signature="e#40122#40444#0" />
-                <element signature="e#40450#40772#0" />
-                <element signature="e#40778#41098#0" />
-                <element signature="e#41104#41426#0" />
-                <element signature="e#41432#41753#0" />
-                <element signature="e#41759#42081#0" />
-                <element signature="e#42087#42415#0" />
-                <element signature="e#42421#42749#0" />
-                <element signature="e#42755#43081#0" />
-                <element signature="e#43087#43409#0" />
-                <element signature="e#43415#43731#0" />
-                <element signature="e#43737#44053#0" />
-                <element signature="e#44059#44375#0" />
-                <element signature="e#44381#44717#0" />
-                <element signature="e#44723#45065#0" />
-                <element signature="e#45071#45394#0" />
-                <element signature="e#45400#45734#0" />
-                <element signature="e#45740#46064#0" />
-                <element signature="e#46070#46395#0" />
-                <element signature="e#46401#46725#0" />
-                <element signature="e#46731#47054#0" />
-                <element signature="e#47060#47392#0" />
-                <element signature="e#47398#47730#0" />
-                <element signature="e#47736#48068#0" />
-                <element signature="e#48074#48404#0" />
-                <element signature="e#48410#48739#0" />
-                <element signature="e#48745#49075#0" />
-                <element signature="e#49081#49419#0" />
-                <element signature="e#49425#49763#0" />
-                <element signature="e#49769#50107#0" />
-                <element signature="e#50113#50433#0" />
-                <element signature="e#50439#50759#0" />
-                <element signature="e#50765#51085#0" />
-                <element signature="e#51091#51417#0" />
-                <element signature="e#51423#51734#0" />
-                <element signature="e#51740#52046#0" />
-                <element signature="e#52052#52355#0" />
-                <element signature="e#52361#52684#0" />
-                <element signature="e#52690#53012#0" />
-                <element signature="e#53018#53339#0" />
-                <element signature="e#53345#53665#0" />
-                <element signature="e#53671#53998#0" />
-                <element signature="e#54004#54331#0" />
-                <element signature="e#54337#54662#0" />
-                <element signature="e#54668#54997#0" />
-                <element signature="e#55003#55329#0" />
-                <element signature="e#55335#55660#0" />
-                <element signature="e#55666#55999#0" />
-                <element signature="e#56005#56338#0" />
-                <element signature="e#56344#56675#0" />
-                <element signature="e#56681#57008#0" />
-                <element signature="e#57014#57333#0" />
-                <element signature="e#57339#57660#0" />
-                <element signature="e#57666#57987#0" />
-                <element signature="e#57993#58305#0" />
-                <element signature="e#58311#58622#0" />
-                <element signature="e#58628#58955#0" />
-                <element signature="e#58961#59283#0" />
-                <element signature="e#59289#59610#0" />
-                <element signature="e#59616#59936#0" />
-                <element signature="e#59942#60267#0" />
-                <element signature="e#60273#60600#0" />
-                <element signature="e#60606#60931#0" />
-                <element signature="e#60937#61270#0" />
-                <element signature="e#61276#61608#0" />
-                <element signature="e#61614#61941#0" />
-                <element signature="e#61947#62280#0" />
-                <element signature="e#62286#62619#0" />
-                <element signature="e#62625#62956#0" />
-                <element signature="e#62962#63289#0" />
-                <element signature="e#63295#63620#0" />
-                <element signature="e#63626#63951#0" />
-                <element signature="e#63957#64278#0" />
-                <element signature="e#64284#64586#0" />
-                <element signature="e#64592#64908#0" />
-                <element signature="e#64914#65229#0" />
-                <element signature="e#65235#65549#0" />
-                <element signature="e#65555#65868#0" />
-                <element signature="e#65874#66194#0" />
-                <element signature="e#66200#66520#0" />
-                <element signature="e#66526#66844#0" />
-                <element signature="e#66850#67172#0" />
-                <element signature="e#67178#67499#0" />
-                <element signature="e#67505#67825#0" />
-                <element signature="e#67831#68157#0" />
-                <element signature="e#68163#68489#0" />
-                <element signature="e#68495#68819#0" />
-                <element signature="e#68825#69145#0" />
-                <element signature="e#69151#69465#0" />
-                <element signature="e#69471#69785#0" />
-                <element signature="e#69791#70105#0" />
-                <element signature="e#70111#70432#0" />
-                <element signature="e#70438#70758#0" />
-                <element signature="e#70764#71083#0" />
-                <element signature="e#71089#71407#0" />
-                <element signature="e#71413#71738#0" />
-                <element signature="e#71744#72069#0" />
-                <element signature="e#72075#72398#0" />
-                <element signature="e#72404#72731#0" />
-                <element signature="e#72737#73061#0" />
-                <element signature="e#73067#73390#0" />
-                <element signature="e#73396#73727#0" />
-                <element signature="e#73733#74064#0" />
-                <element signature="e#74070#74399#0" />
-                <element signature="e#74405#74730#0" />
-                <element signature="e#74736#75053#0" />
-                <element signature="e#75059#75378#0" />
-                <element signature="e#75384#75703#0" />
-                <element signature="e#75709#76005#0" />
-                <element signature="e#76011#76306#0" />
-                <element signature="e#76312#76608#0" />
-                <element signature="e#76614#76919#0" />
-                <element signature="e#76925#77230#0" />
-                <element signature="e#77236#77539#0" />
-                <element signature="e#77545#77870#0" />
-                <element signature="e#77876#78200#0" />
-                <element signature="e#78206#78529#0" />
-                <element signature="e#78535#78864#0" />
-                <element signature="e#78870#79197#0" />
-                <element signature="e#79203#79530#0" />
-                <element signature="e#79536#79859#0" />
-                <element signature="e#79865#80182#0" />
-                <element signature="e#80188#80505#0" />
-                <element signature="e#80511#80828#0" />
-                <element signature="e#80834#81128#0" />
-                <element signature="e#81134#81427#0" />
-                <element signature="e#81433#81735#0" />
-                <element signature="e#81741#82043#0" />
-                <element signature="e#82049#82351#0" />
-                <element signature="e#82357#82681#0" />
-                <element signature="e#82687#83010#0" />
-                <element signature="e#83016#83338#0" />
-                <element signature="e#83344#83672#0" />
-                <element signature="e#83678#84006#0" />
-                <element signature="e#84012#84336#0" />
-                <element signature="e#84342#84664#0" />
-                <element signature="e#84670#84986#0" />
-                <element signature="e#84992#85308#0" />
-                <element signature="e#85314#85630#0" />
-                <element signature="e#85636#85928#0" />
-                <element signature="e#85934#86235#0" />
-                <element signature="e#86241#86542#0" />
-                <element signature="e#86548#86847#0" />
-                <element signature="e#86853#87174#0" />
-                <element signature="e#87180#87502#0" />
-                <element signature="e#87508#87829#0" />
-                <element signature="e#87835#88162#0" />
-                <element signature="e#88168#88495#0" />
-                <element signature="e#88501#88826#0" />
-                <element signature="e#88832#89150#0" />
-                <element signature="e#89156#89471#0" />
-                <element signature="e#89477#89792#0" />
-                <element signature="e#89798#90113#0" />
-                <element signature="e#93441#93737#0" />
-                <element signature="e#90119#90434#0" />
-                <element signature="e#90444#90759#0" />
-                <element signature="e#90765#91080#0" />
-                <element signature="e#91086#91401#0" />
-                <element signature="e#91407#91722#0" />
-                <element signature="e#91728#92043#0" />
-                <element signature="e#92049#92364#0" />
-                <element signature="e#92370#92685#0" />
-                <element signature="e#92691#93006#0" />
-                <element signature="e#93012#93327#0" />
-                <element signature="e#93333#93648#0" />
-                <element signature="e#93654#93969#0" />
-                <element signature="e#94296#94611#0" />
-                <element signature="e#94617#94932#0" />
-                <element signature="e#94938#95253#0" />
-                <element signature="e#95259#95574#0" />
-                <element signature="e#95580#95895#0" />
-                <element signature="e#95901#96216#0" />
-                <element signature="e#96222#96537#0" />
-                <element signature="e#96543#96858#0" />
-                <element signature="e#96864#97179#0" />
-                <element signature="e#97185#97500#0" />
-                <element signature="e#97506#97821#0" />
-                <element signature="e#97827#98142#0" />
-                <element signature="e#98148#98463#0" />
-                <element signature="e#102624#102950#0" />
-                <element signature="e#102956#103282#0" />
-                <element signature="e#103288#103614#0" />
-                <element signature="e#103620#103946#0" />
-                <element signature="e#103952#104278#0" />
-                <element signature="e#104284#104610#0" />
-                <element signature="e#104616#104942#0" />
-                <element signature="e#104948#105274#0" />
-                <element signature="e#105280#105606#0" />
-                <element signature="e#105612#105938#0" />
-                <element signature="e#105944#106270#0" />
-                <element signature="e#106276#106602#0" />
-                <element signature="e#106608#106934#0" />
-                <element signature="e#106940#107266#0" />
-                <element signature="e#107272#107598#0" />
-                <element signature="e#107604#107930#0" />
-                <element signature="e#107936#108262#0" />
-                <element signature="e#108268#108594#0" />
-                <element signature="e#119062#119369#0" />
-                <element signature="e#108600#108926#0" />
-                <element signature="e#108932#109258#0" />
-                <element signature="e#109264#109590#0" />
-                <element signature="e#109596#109922#0" />
-                <element signature="e#109928#110254#0" />
-                <element signature="e#110260#110586#0" />
-                <element signature="e#117645#117968#0" />
-                <element signature="e#117974#118297#0" />
-                <element signature="e#118303#118626#0" />
-                <element signature="e#118632#118955#0" />
-                <element signature="e#118961#119284#0" />
-                <element signature="e#119290#119613#0" />
-                <element signature="e#119619#119942#0" />
-                <element signature="e#119948#120271#0" />
-                <element signature="e#120277#120600#0" />
-                <element signature="e#120601#120924#0" />
-                <element signature="e#120929#121252#0" />
-                <element signature="e#121262#121585#0" />
-                <element signature="e#129269#129592#0" />
-                <element signature="e#129598#129921#0" />
-                <element signature="e#129927#130250#0" />
-                <element signature="e#130256#130579#0" />
-                <element signature="e#130585#130908#0" />
-                <element signature="e#134252#134575#0" />
-                <element signature="e#134581#134904#0" />
-                <element signature="e#134910#135233#0" />
-                <element signature="e#135356#135679#0" />
-                <element signature="e#135685#136008#0" />
-                <element signature="e#136014#136337#0" />
-                <element signature="e#136343#136666#0" />
-                <element signature="e#136672#136995#0" />
-                <element signature="e#137001#137324#0" />
-                <element signature="e#137330#137653#0" />
-                <element signature="e#137659#137982#0" />
-                <element signature="e#137988#138311#0" />
-                <element signature="e#138317#138640#0" />
-                <element signature="e#138646#138969#0" />
-                <element signature="e#138975#139298#0" />
-                <element signature="e#146291#146616#0" />
-                <element signature="e#146622#146947#0" />
-                <element signature="e#146953#147278#0" />
-                <element signature="e#147284#147609#0" />
-                <element signature="e#147615#147940#0" />
-                <element signature="e#157585#157880#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/VolumeTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Time.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="3664" column="26" selection-start-line="3664" selection-start-column="26" selection-end-line="3664" selection-end-column="26" />
+            <state relative-caret-position="34">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <folding>
+                <element signature="e#322#1640#0" />
+                <element signature="method#kilogramToGram#0;class#Time#0" />
+                <element signature="method#secondToMillisecond#1;class#Time#0" />
+                <element signature="method#secondToMillisecond#2;class#Time#0" />
+                <element signature="method#secondToMillisecond#3;class#Time#0" />
+                <element signature="method#secondToPicosecond#1;class#Time#0" />
+                <element signature="method#secondToPicosecond#2;class#Time#0" />
+                <element signature="method#secondToPicosecond#3;class#Time#0" />
+                <element signature="method#secondToPicosecond#4;class#Time#0" />
+                <element signature="method#sec#0;class#Time#0" />
+                <element signature="method#secondToWeek#2;class#Time#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -375,7 +102,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Menu.java" />
         <option value="$PROJECT_DIR$/tests/com/spookyNullPointer/LengthTest.java" />
-        <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Main.java" />
         <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Length.java" />
         <option value="$PROJECT_DIR$/tests/com/spookyNullPointer/TemperatureTest.java" />
         <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Temperature.java" />
@@ -383,6 +109,11 @@
         <option value="$PROJECT_DIR$/tests/com/spookyNullPointer/AreaTest.java" />
         <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Volume.java" />
         <option value="$PROJECT_DIR$/tests/com/spookyNullPointer/VolumeTest.java" />
+        <option value="$PROJECT_DIR$/tests/com/spookyNullPointer/WeightTest.java" />
+        <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Weight.java" />
+        <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Time.java" />
+        <option value="$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java" />
       </list>
     </option>
   </component>
@@ -442,7 +173,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569025400081" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569103583229" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -467,8 +198,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VolumeTest.testUSFluidOunceToCbMillimeter2">
-    <configuration name="VolumeTest.testUSCupToCbMillimeter1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WeightTest.testAtomicMassUnitToOunce2">
+    <configuration name="WeightTest.testAtomicMassUnitToGram2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -477,14 +208,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.VolumeTest" />
-      <option name="METHOD_NAME" value="testUSCupToCbMillimeter1" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.WeightTest" />
+      <option name="METHOD_NAME" value="testAtomicMassUnitToGram2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolumeTest.testUSCupToCbMillimeter2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WeightTest.testAtomicMassUnitToMilligram2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -493,14 +224,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.VolumeTest" />
-      <option name="METHOD_NAME" value="testUSCupToCbMillimeter2" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.WeightTest" />
+      <option name="METHOD_NAME" value="testAtomicMassUnitToMilligram2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolumeTest.testUSFluidOunceToCbMillimeter2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WeightTest.testAtomicMassUnitToOunce2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -509,14 +240,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.VolumeTest" />
-      <option name="METHOD_NAME" value="testUSFluidOunceToCbMillimeter2" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.WeightTest" />
+      <option name="METHOD_NAME" value="testAtomicMassUnitToOunce2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolumeTest.testUSFluidOunceToUSTableSpoon1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WeightTest.testAtomicMassUnitoMilligram1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -525,14 +256,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.VolumeTest" />
-      <option name="METHOD_NAME" value="testUSFluidOunceToUSTableSpoon1" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.WeightTest" />
+      <option name="METHOD_NAME" value="testAtomicMassUnitoMilligram1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolumeTest.testUSFluidOunceToUSTableSpoon2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WeightTest.testCarratToAtomicMassUnit2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -541,8 +272,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.VolumeTest" />
-      <option name="METHOD_NAME" value="testUSFluidOunceToUSTableSpoon2" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.WeightTest" />
+      <option name="METHOD_NAME" value="testCarratToAtomicMassUnit2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -550,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VolumeTest.testUSFluidOunceToCbMillimeter2" />
-        <item itemvalue="JUnit.VolumeTest.testUSFluidOunceToUSTableSpoon2" />
-        <item itemvalue="JUnit.VolumeTest.testUSFluidOunceToUSTableSpoon1" />
-        <item itemvalue="JUnit.VolumeTest.testUSCupToCbMillimeter2" />
-        <item itemvalue="JUnit.VolumeTest.testUSCupToCbMillimeter1" />
+        <item itemvalue="JUnit.WeightTest.testAtomicMassUnitToOunce2" />
+        <item itemvalue="JUnit.WeightTest.testAtomicMassUnitToMilligram2" />
+        <item itemvalue="JUnit.WeightTest.testAtomicMassUnitoMilligram1" />
+        <item itemvalue="JUnit.WeightTest.testAtomicMassUnitToGram2" />
+        <item itemvalue="JUnit.WeightTest.testCarratToAtomicMassUnit2" />
       </list>
     </recent_temporary>
   </component>
@@ -573,7 +304,7 @@
       <workItem from="1567188944615" duration="392000" />
       <workItem from="1567190769835" duration="20693000" />
       <workItem from="1568462478034" duration="50986000" />
-      <workItem from="1568836094760" duration="27833000" />
+      <workItem from="1568836094760" duration="50963000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Volume. Adding Tests">
       <created>1568851660312</created>
@@ -582,43 +313,50 @@
       <option name="project" value="LOCAL" />
       <updated>1568851660312</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished Volume. Adding Tests">
+      <created>1569025417820</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569025417820</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VolumeTest_testUSPintToMillimeter2 - 2019.09.20 at 22h 54m 24s.xml">
-      <configuration name="VolumeTest.testUSPintToMillimeter2" configurationId="JUnit" />
+    <history-entry file="WeightTest_testOunceToMilligram2 - 2019.09.21 at 22h 42m 22s.xml">
+      <configuration name="WeightTest.testOunceToMilligram2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VolumeTest - 2019.09.21 at 00h 26m 16s.xml">
-      <configuration name="VolumeTest" configurationId="JUnit" />
+    <history-entry file="WeightTest - 2019.09.21 at 22h 52m 21s.xml">
+      <configuration name="WeightTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VolumeTest_testUSCupToCbMillimeter1 - 2019.09.21 at 00h 27m 55s.xml">
-      <configuration name="VolumeTest.testUSCupToCbMillimeter1" configurationId="JUnit" />
+    <history-entry file="WeightTest_testCarratToAtomicMassUnit1 - 2019.09.21 at 22h 52m 29s.xml">
+      <configuration name="WeightTest.testCarratToAtomicMassUnit1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VolumeTest_testUSCupToCbMillimeter2 - 2019.09.21 at 00h 27m 59s.xml">
-      <configuration name="VolumeTest.testUSCupToCbMillimeter2" configurationId="JUnit" />
+    <history-entry file="WeightTest_testCarratToAtomicMassUnit1 - 2019.09.21 at 22h 53m 13s.xml">
+      <configuration name="WeightTest.testCarratToAtomicMassUnit1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VolumeTest_testUSCupToCbMillimeter2 - 2019.09.21 at 00h 28m 11s.xml">
-      <configuration name="VolumeTest.testUSCupToCbMillimeter2" configurationId="JUnit" />
+    <history-entry file="WeightTest_testCarratToAtomicMassUnit2 - 2019.09.21 at 22h 53m 15s.xml">
+      <configuration name="WeightTest.testCarratToAtomicMassUnit2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VolumeTest_testUSFluidOunceToUSTableSpoon1 - 2019.09.21 at 00h 28m 25s.xml">
-      <configuration name="VolumeTest.testUSFluidOunceToUSTableSpoon1" configurationId="JUnit" />
+    <history-entry file="WeightTest_testAtomicMassUnitToGram2 - 2019.09.21 at 22h 53m 20s.xml">
+      <configuration name="WeightTest.testAtomicMassUnitToGram2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VolumeTest_testUSFluidOunceToUSTableSpoon1 - 2019.09.21 at 00h 31m 05s.xml">
-      <configuration name="VolumeTest.testUSFluidOunceToUSTableSpoon1" configurationId="JUnit" />
+    <history-entry file="WeightTest_testAtomicMassUnitToGram2 - 2019.09.21 at 22h 54m 30s.xml">
+      <configuration name="WeightTest.testAtomicMassUnitToGram2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VolumeTest_testUSFluidOunceToUSTableSpoon2 - 2019.09.21 at 00h 31m 10s.xml">
-      <configuration name="VolumeTest.testUSFluidOunceToUSTableSpoon2" configurationId="JUnit" />
+    <history-entry file="WeightTest_testAtomicMassUnitoMilligram1 - 2019.09.21 at 22h 54m 33s.xml">
+      <configuration name="WeightTest.testAtomicMassUnitoMilligram1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VolumeTest_testUSFluidOunceToCbMillimeter2 - 2019.09.21 at 00h 31m 33s.xml">
-      <configuration name="VolumeTest.testUSFluidOunceToCbMillimeter2" configurationId="JUnit" />
+    <history-entry file="WeightTest_testAtomicMassUnitToMilligram2 - 2019.09.21 at 22h 54m 35s.xml">
+      <configuration name="WeightTest.testAtomicMassUnitToMilligram2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VolumeTest_testUSFluidOunceToCbMillimeter2 - 2019.09.21 at 00h 31m 48s.xml">
-      <configuration name="VolumeTest.testUSFluidOunceToCbMillimeter2" configurationId="JUnit" />
+    <history-entry file="WeightTest_testAtomicMassUnitToOunce2 - 2019.09.21 at 22h 54m 42s.xml">
+      <configuration name="WeightTest.testAtomicMassUnitToOunce2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108864000" />
+    <option name="totallyTimeSpent" value="131994000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,7 +371,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -642,7 +380,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.05092091" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29144096" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -669,23 +407,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished Volume. Adding Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Volume. Adding Tests" />
+    <MESSAGE value="Finished Volume Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Volume Tests" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Weight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Time.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1755">
@@ -784,31 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="121" selection-start-line="13" selection-start-column="121" selection-end-line="13" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="230" column="8" selection-start-line="230" selection-start-column="8" selection-end-line="230" selection-end-column="8" />
-          <folding>
-            <element signature="method#createMenuArray#0;class#Menu#0" />
-            <element signature="method#choiceToString#0;class#Menu#0" />
-            <element signature="method#convertFromTo#0;class#Menu#0" />
-            <element signature="method#printStringArray#0;class#Menu#0" />
-            <element signature="method#getSetMenuChoice#0;class#Menu#0" />
-            <element signature="method#headerGraphic#0;class#Menu#0" />
-            <element signature="method#firstMenu#0;class#Menu#0" />
-            <element signature="method#secondMenu#0;class#Menu#0" />
-            <element signature="method#thirdMenu#0;class#Menu#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Length.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="683">
@@ -823,10 +523,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/VolumeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Volume.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="757" column="91" selection-start-line="757" selection-start-column="91" selection-end-line="757" selection-end-column="91" />
+        <state relative-caret-position="302">
+          <caret line="1649" column="4" lean-forward="true" selection-start-line="1649" selection-start-column="4" selection-end-line="1659" selection-end-column="5" />
           <folding>
             <element signature="e#323#3573#0" />
             <element signature="e#3646#6979#0" />
@@ -838,6 +545,7 @@
             <element signature="e#23927#27186#0" />
             <element signature="e#27259#30503#0" />
             <element signature="e#30577#33819#0" />
+            <element signature="e#33893#37122#0" />
             <element signature="e#37266#40578#0" />
             <element signature="e#40651#43962#0" />
             <element signature="e#44015#47305#0" />
@@ -850,7 +558,6 @@
             <element signature="e#68700#71910#0" />
             <element signature="e#72008#75217#0" />
             <element signature="e#75312#78519#0" />
-            <element signature="e#37256#37563#0" />
             <element signature="e#37569#37881#0" />
             <element signature="e#37887#38205#0" />
             <element signature="e#38211#38510#0" />
@@ -871,7 +578,6 @@
             <element signature="e#43087#43409#0" />
             <element signature="e#43415#43731#0" />
             <element signature="e#43737#44053#0" />
-            <element signature="e#44059#44375#0" />
             <element signature="e#44381#44717#0" />
             <element signature="e#44723#45065#0" />
             <element signature="e#45071#45394#0" />
@@ -1025,6 +731,8 @@
             <element signature="e#93012#93327#0" />
             <element signature="e#93333#93648#0" />
             <element signature="e#93654#93969#0" />
+            <element signature="e#94381#94684#0" />
+            <element signature="e#93975#94290#0" />
             <element signature="e#94296#94611#0" />
             <element signature="e#94617#94932#0" />
             <element signature="e#94938#95253#0" />
@@ -1084,7 +792,6 @@
             <element signature="e#134581#134904#0" />
             <element signature="e#134910#135233#0" />
             <element signature="e#135356#135679#0" />
-            <element signature="e#135685#136008#0" />
             <element signature="e#136014#136337#0" />
             <element signature="e#136343#136666#0" />
             <element signature="e#136672#136995#0" />
@@ -1105,10 +812,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/VolumeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="3664" column="26" selection-start-line="3664" selection-start-column="26" selection-end-line="3664" selection-end-column="26" />
+        <state relative-caret-position="510">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Weight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="336" column="4" selection-start-line="336" selection-start-column="4" selection-end-line="347" selection-end-column="5" />
+          <folding>
+            <element signature="e#246#2283#0" />
+            <element signature="e#320#1638#0" />
+            <element signature="e#1730#3048#0" />
+            <element signature="e#3113#4398#0" />
+            <element signature="e#4535#5859#0" />
+            <element signature="e#5953#7276#0" />
+            <element signature="e#7356#8662#0" />
+            <element signature="e#8754#10059#0" />
+            <element signature="e#10137#11427#0" />
+            <element signature="e#11520#12809#0" />
+            <element signature="e#12920#14215#0" />
+            <element signature="method#cbMeterToCbKilometer#0;class#Weight#0" />
+            <element signature="method#kilogramToGram#1;class#Weight#0" />
+            <element signature="method#kilogramToGram#2;class#Weight#0" />
+            <element signature="method#kilogramToGram#3;class#Weight#0" />
+            <element signature="method#kilogramToGram#4;class#Weight#0" />
+            <element signature="method#kilogramToGram#5;class#Weight#0" />
+            <element signature="method#kilogramToGram#6;class#Weight#0" />
+            <element signature="method#kilogramToGram#7;class#Weight#0" />
+            <element signature="method#kilogramToGram#8;class#Weight#0" />
+            <element signature="method#gramToMilligram#0;class#Weight#0" />
+            <element signature="method#kilogramToMetricTon#1;class#Weight#0" />
+            <element signature="method#kilogramToLongTon#1;class#Weight#0" />
+            <element signature="method#kilogramShortTon#1;class#Weight#0" />
+            <element signature="method#kilogramToPound#1;class#Weight#0" />
+            <element signature="method#kilogramToOunce#1;class#Weight#0" />
+            <element signature="method#kilogramToCarrat#1;class#Weight#0" />
+            <element signature="method#kilogramToAtomicMassUnit#1;class#Weight#0" />
+            <element signature="method#gramToMetricTon#1;class#Weight#0" />
+            <element signature="method#gramToLongTon#1;class#Weight#0" />
+            <element signature="method#gramShortTon#1;class#Weight#0" />
+            <element signature="method#gramToPound#1;class#Weight#0" />
+            <element signature="method#gramToOunce#1;class#Weight#0" />
+            <element signature="method#gramToCarrat#1;class#Weight#0" />
+            <element signature="method#gramToAtomicMassUnit#1;class#Weight#0" />
+            <element signature="method#milligramToLongTon#1;class#Weight#0" />
+            <element signature="method#milligramShortTon#1;class#Weight#0" />
+            <element signature="method#milligramToPound#1;class#Weight#0" />
+            <element signature="method#milligramToOunce#1;class#Weight#0" />
+            <element signature="method#milligramToCarrat#1;class#Weight#0" />
+            <element signature="method#milligramToAtomicMassUnit#1;class#Weight#0" />
+            <element signature="method#metricTonShortTon#1;class#Weight#0" />
+            <element signature="method#metricTonToPound#1;class#Weight#0" />
+            <element signature="method#metricTonToOunce#1;class#Weight#0" />
+            <element signature="method#metricTonToCarrat#1;class#Weight#0" />
+            <element signature="method#metricTonToAtomicMassUnit#1;class#Weight#0" />
+            <element signature="method#longTonToPound#1;class#Weight#0" />
+            <element signature="method#longTonToOunce#1;class#Weight#0" />
+            <element signature="method#longTonToCarrat#1;class#Weight#0" />
+            <element signature="method#longTonToAtomicMassUnit#1;class#Weight#0" />
+            <element signature="e#23261#23563#0" />
+            <element signature="e#23569#23876#0" />
+            <element signature="e#23882#24213#0" />
+            <element signature="e#25537#25841#0" />
+            <element signature="e#25847#26175#0" />
+            <element signature="e#27543#27869#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/WeightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="230" column="8" selection-start-line="230" selection-start-column="8" selection-end-line="230" selection-end-column="8" />
+          <folding>
+            <element signature="method#createMenuArray#0;class#Menu#0" />
+            <element signature="method#choiceToString#0;class#Menu#0" />
+            <element signature="method#convertFromTo#0;class#Menu#0" />
+            <element signature="method#printStringArray#0;class#Menu#0" />
+            <element signature="method#getSetMenuChoice#0;class#Menu#0" />
+            <element signature="method#headerGraphic#0;class#Menu#0" />
+            <element signature="method#firstMenu#0;class#Menu#0" />
+            <element signature="method#secondMenu#0;class#Menu#0" />
+            <element signature="method#thirdMenu#0;class#Menu#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding>
+            <element signature="e#322#1640#0" />
+            <element signature="method#kilogramToGram#0;class#Time#0" />
+            <element signature="method#secondToMillisecond#1;class#Time#0" />
+            <element signature="method#secondToMillisecond#2;class#Time#0" />
+            <element signature="method#secondToMillisecond#3;class#Time#0" />
+            <element signature="method#secondToPicosecond#1;class#Time#0" />
+            <element signature="method#secondToPicosecond#2;class#Time#0" />
+            <element signature="method#secondToPicosecond#3;class#Time#0" />
+            <element signature="method#secondToPicosecond#4;class#Time#0" />
+            <element signature="method#sec#0;class#Time#0" />
+            <element signature="method#secondToWeek#2;class#Time#0" />
+          </folding>
         </state>
       </provider>
     </entry>
