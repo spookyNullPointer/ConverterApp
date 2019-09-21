@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6dbafeeb-22c3-4ab7-be2b-55ede8a7b7e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Volume.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Volume.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/spookyNullPointer/Volume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spookyNullPointer/Volume.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/com/spookyNullPointer/VolumeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/spookyNullPointer/VolumeTest.java" afterDir="false" />
     </list>
@@ -66,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Volume.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="83" column="22" lean-forward="true" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+            <state relative-caret-position="465">
+              <caret line="757" column="91" selection-start-line="757" selection-start-column="91" selection-end-line="757" selection-end-column="91" />
               <folding>
                 <element signature="e#323#3573#0" />
                 <element signature="e#3646#6979#0" />
@@ -79,7 +80,6 @@
                 <element signature="e#23927#27186#0" />
                 <element signature="e#27259#30503#0" />
                 <element signature="e#30577#33819#0" />
-                <element signature="e#33893#37122#0" />
                 <element signature="e#37266#40578#0" />
                 <element signature="e#40651#43962#0" />
                 <element signature="e#44015#47305#0" />
@@ -267,8 +267,6 @@
                 <element signature="e#93012#93327#0" />
                 <element signature="e#93333#93648#0" />
                 <element signature="e#93654#93969#0" />
-                <element signature="e#94381#94684#0" />
-                <element signature="e#93975#94290#0" />
                 <element signature="e#94296#94611#0" />
                 <element signature="e#94617#94932#0" />
                 <element signature="e#94938#95253#0" />
@@ -353,8 +351,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/VolumeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="347" column="37" selection-start-line="347" selection-start-column="37" selection-end-line="347" selection-end-column="37" />
+            <state relative-caret-position="578">
+              <caret line="3664" column="26" selection-start-line="3664" selection-start-column="26" selection-end-line="3664" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -444,7 +442,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568851579946" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569025400081" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -469,8 +467,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VolumeTest">
-    <configuration name="VolumeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.VolumeTest.testUSFluidOunceToCbMillimeter2">
+    <configuration name="VolumeTest.testUSCupToCbMillimeter1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -480,27 +478,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
       <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.VolumeTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VolumeTest.testCbKilometerToCubicFoot2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ConverterApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spookyNullPointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.VolumeTest" />
-      <option name="METHOD_NAME" value="testCbKilometerToCubicFoot2" />
+      <option name="METHOD_NAME" value="testUSCupToCbMillimeter1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolumeTest.testCbKilometerToCubicInch2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VolumeTest.testUSCupToCbMillimeter2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -510,13 +494,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
       <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.VolumeTest" />
-      <option name="METHOD_NAME" value="testCbKilometerToCubicInch2" />
+      <option name="METHOD_NAME" value="testUSCupToCbMillimeter2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolumeTest.testCbKilometerToCubicYard2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VolumeTest.testUSFluidOunceToCbMillimeter2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -526,13 +510,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
       <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.VolumeTest" />
-      <option name="METHOD_NAME" value="testCbKilometerToCubicYard2" />
+      <option name="METHOD_NAME" value="testUSFluidOunceToCbMillimeter2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolumeTest.testCbKilometerToImperialTeaSpoon2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VolumeTest.testUSFluidOunceToUSTableSpoon1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -542,7 +526,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
       <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.VolumeTest" />
-      <option name="METHOD_NAME" value="testCbKilometerToImperialTeaSpoon2" />
+      <option name="METHOD_NAME" value="testUSFluidOunceToUSTableSpoon1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VolumeTest.testUSFluidOunceToUSTableSpoon2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConverterApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spookyNullPointer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.VolumeTest" />
+      <option name="METHOD_NAME" value="testUSFluidOunceToUSTableSpoon2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -550,11 +550,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VolumeTest" />
-        <item itemvalue="JUnit.VolumeTest.testCbKilometerToCubicInch2" />
-        <item itemvalue="JUnit.VolumeTest.testCbKilometerToCubicFoot2" />
-        <item itemvalue="JUnit.VolumeTest.testCbKilometerToCubicYard2" />
-        <item itemvalue="JUnit.VolumeTest.testCbKilometerToImperialTeaSpoon2" />
+        <item itemvalue="JUnit.VolumeTest.testUSFluidOunceToCbMillimeter2" />
+        <item itemvalue="JUnit.VolumeTest.testUSFluidOunceToUSTableSpoon2" />
+        <item itemvalue="JUnit.VolumeTest.testUSFluidOunceToUSTableSpoon1" />
+        <item itemvalue="JUnit.VolumeTest.testUSCupToCbMillimeter2" />
+        <item itemvalue="JUnit.VolumeTest.testUSCupToCbMillimeter1" />
       </list>
     </recent_temporary>
   </component>
@@ -573,44 +573,52 @@
       <workItem from="1567188944615" duration="392000" />
       <workItem from="1567190769835" duration="20693000" />
       <workItem from="1568462478034" duration="50986000" />
-      <workItem from="1568836094760" duration="12215000" />
+      <workItem from="1568836094760" duration="27833000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished Volume. Adding Tests">
+      <created>1568851660312</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568851660312</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AreaTest_testAcreToSqInch1 - 2019.09.15 at 21h 39m 28s.xml">
-      <configuration name="AreaTest.testAcreToSqInch1" configurationId="JUnit" />
+    <history-entry file="VolumeTest_testUSPintToMillimeter2 - 2019.09.20 at 22h 54m 24s.xml">
+      <configuration name="VolumeTest.testUSPintToMillimeter2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AreaTest_testAcreToSqInch2 - 2019.09.15 at 21h 39m 32s.xml">
-      <configuration name="AreaTest.testAcreToSqInch2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AreaTest - 2019.09.15 at 21h 39m 38s.xml">
-      <configuration name="AreaTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VolumeTest - 2019.09.18 at 23h 28m 47s.xml">
+    <history-entry file="VolumeTest - 2019.09.21 at 00h 26m 16s.xml">
       <configuration name="VolumeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VolumeTest - 2019.09.18 at 23h 39m 45s.xml">
-      <configuration name="VolumeTest" configurationId="JUnit" />
+    <history-entry file="VolumeTest_testUSCupToCbMillimeter1 - 2019.09.21 at 00h 27m 55s.xml">
+      <configuration name="VolumeTest.testUSCupToCbMillimeter1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VolumeTest - 2019.09.19 at 00h 38m 17s.xml">
-      <configuration name="VolumeTest" configurationId="JUnit" />
+    <history-entry file="VolumeTest_testUSCupToCbMillimeter2 - 2019.09.21 at 00h 27m 59s.xml">
+      <configuration name="VolumeTest.testUSCupToCbMillimeter2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VolumeTest_testCbMeterToImperialPint2 - 2019.09.19 at 00h 38m 37s.xml">
-      <configuration name="VolumeTest.testCbMeterToImperialPint2" configurationId="JUnit" />
+    <history-entry file="VolumeTest_testUSCupToCbMillimeter2 - 2019.09.21 at 00h 28m 11s.xml">
+      <configuration name="VolumeTest.testUSCupToCbMillimeter2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VolumeTest - 2019.09.19 at 00h 40m 52s.xml">
-      <configuration name="VolumeTest" configurationId="JUnit" />
+    <history-entry file="VolumeTest_testUSFluidOunceToUSTableSpoon1 - 2019.09.21 at 00h 28m 25s.xml">
+      <configuration name="VolumeTest.testUSFluidOunceToUSTableSpoon1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VolumeTest - 2019.09.19 at 01h 02m 43s.xml">
-      <configuration name="VolumeTest" configurationId="JUnit" />
+    <history-entry file="VolumeTest_testUSFluidOunceToUSTableSpoon1 - 2019.09.21 at 00h 31m 05s.xml">
+      <configuration name="VolumeTest.testUSFluidOunceToUSTableSpoon1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VolumeTest_testCbKilometerToUSGallon2 - 2019.09.19 at 01h 02m 54s.xml">
-      <configuration name="VolumeTest.testCbKilometerToUSGallon2" configurationId="JUnit" />
+    <history-entry file="VolumeTest_testUSFluidOunceToUSTableSpoon2 - 2019.09.21 at 00h 31m 10s.xml">
+      <configuration name="VolumeTest.testUSFluidOunceToUSTableSpoon2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VolumeTest_testUSFluidOunceToCbMillimeter2 - 2019.09.21 at 00h 31m 33s.xml">
+      <configuration name="VolumeTest.testUSFluidOunceToCbMillimeter2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VolumeTest_testUSFluidOunceToCbMillimeter2 - 2019.09.21 at 00h 31m 48s.xml">
+      <configuration name="VolumeTest.testUSFluidOunceToCbMillimeter2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93246000" />
+    <option name="totallyTimeSpent" value="108864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -634,7 +642,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38678223" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.05092091" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -658,6 +666,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished Volume. Adding Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Volume. Adding Tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Weight.java">
@@ -813,8 +825,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Volume.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="83" column="22" lean-forward="true" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        <state relative-caret-position="465">
+          <caret line="757" column="91" selection-start-line="757" selection-start-column="91" selection-end-line="757" selection-end-column="91" />
           <folding>
             <element signature="e#323#3573#0" />
             <element signature="e#3646#6979#0" />
@@ -826,7 +838,6 @@
             <element signature="e#23927#27186#0" />
             <element signature="e#27259#30503#0" />
             <element signature="e#30577#33819#0" />
-            <element signature="e#33893#37122#0" />
             <element signature="e#37266#40578#0" />
             <element signature="e#40651#43962#0" />
             <element signature="e#44015#47305#0" />
@@ -1014,8 +1025,6 @@
             <element signature="e#93012#93327#0" />
             <element signature="e#93333#93648#0" />
             <element signature="e#93654#93969#0" />
-            <element signature="e#94381#94684#0" />
-            <element signature="e#93975#94290#0" />
             <element signature="e#94296#94611#0" />
             <element signature="e#94617#94932#0" />
             <element signature="e#94938#95253#0" />
@@ -1098,8 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/VolumeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="347" column="37" selection-start-line="347" selection-start-column="37" selection-end-line="347" selection-end-column="37" />
+        <state relative-caret-position="578">
+          <caret line="3664" column="26" selection-start-line="3664" selection-start-column="26" selection-end-line="3664" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -755,7 +755,7 @@ class Volume {
                         conversionResult = usCupToUSFluidOunce(valueToConvert, true);
                         break;
                     case 12:
-                        conversionResult = usFluidOunceToUSTableSpoon(valueToConvert, true);
+                        conversionResult = usFluidOunceToUSTableSpoon(valueToConvert, false);
                         break;
                     case 13:
                         conversionResult = usFluidOunceToUSTeaSpoon(valueToConvert, false);
