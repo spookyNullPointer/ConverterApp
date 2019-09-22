@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbafeeb-22c3-4ab7-be2b-55ede8a7b7e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Time.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Time.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spookyNullPointer/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spookyNullPointer/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ConverterApp/com/spookyNullPointer/LengthTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ConverterApp/com/spookyNullPointer/LengthTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/com/spookyNullPointer/LengthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/spookyNullPointer/LengthTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="623">
@@ -44,92 +44,6 @@
                 <element signature="method#secondMenu#0;class#Menu#0" />
                 <element signature="method#thirdMenu#0;class#Menu#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Time.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="365" column="30" selection-start-line="365" selection-start-column="30" selection-end-line="365" selection-end-column="30" />
-              <folding>
-                <element signature="e#322#1640#0" />
-                <element signature="e#1847#3286#0" />
-                <element signature="e#3430#4913#0" />
-                <element signature="e#5011#6493#0" />
-                <element signature="e#6582#8054#0" />
-                <element signature="e#8148#9619#0" />
-                <element signature="e#9691#11141#0" />
-                <element signature="e#11224#12665#0" />
-                <element signature="e#12754#14191#0" />
-                <element signature="e#14287#15725#0" />
-                <element signature="e#15818#17255#0" />
-                <element signature="method#kilogramToGram#0;class#Time#0" />
-                <element signature="method#secondToMillisecond#1;class#Time#0" />
-                <element signature="method#secondToMillisecond#2;class#Time#0" />
-                <element signature="method#secondToMillisecond#3;class#Time#0" />
-                <element signature="method#secondToPicosecond#1;class#Time#0" />
-                <element signature="method#secondToPicosecond#2;class#Time#0" />
-                <element signature="method#secondToPicosecond#3;class#Time#0" />
-                <element signature="method#secondToPicosecond#4;class#Time#0" />
-                <element signature="method#sec#0;class#Time#0" />
-                <element signature="method#secondToWeek#2;class#Time#0" />
-                <element signature="method#secondToMicrosecond#1;class#Time#0" />
-                <element signature="method#secondToNanosecond#1;class#Time#0" />
-                <element signature="method#secondToPicosecond#1;class#Time#0" />
-                <element signature="method#secondToMinute#1;class#Time#0" />
-                <element signature="method#secondToHour#1;class#Time#0" />
-                <element signature="method#secondToDay#1;class#Time#0" />
-                <element signature="method#secondToWeek#1;class#Time#0" />
-                <element signature="method#secondToMonth#1;class#Time#0" />
-                <element signature="method#secondToYear#1;class#Time#0" />
-                <element signature="method#millisecondToNanosecond#1;class#Time#0" />
-                <element signature="method#millisecondToPicosecond#1;class#Time#0" />
-                <element signature="method#millisecondToMinute#1;class#Time#0" />
-                <element signature="method#millisecondToHour#1;class#Time#0" />
-                <element signature="method#millisecondToDay#1;class#Time#0" />
-                <element signature="method#millisecondToWeek#1;class#Time#0" />
-                <element signature="method#millisecondToMonth#1;class#Time#0" />
-                <element signature="method#millisecondToYear#1;class#Time#0" />
-                <element signature="method#microsecondToPicosecond#1;class#Time#0" />
-                <element signature="method#microsecondToMinute#1;class#Time#0" />
-                <element signature="method#microsecondToHour#1;class#Time#0" />
-                <element signature="method#microsecondToDay#1;class#Time#0" />
-                <element signature="method#microsecondToWeek#1;class#Time#0" />
-                <element signature="method#microsecondToMonth#1;class#Time#0" />
-                <element signature="method#microsecondToYear#1;class#Time#0" />
-                <element signature="method#nanosecondToMinute#1;class#Time#0" />
-                <element signature="method#nanosecondToHour#1;class#Time#0" />
-                <element signature="method#nanosecondToDay#1;class#Time#0" />
-                <element signature="method#nanosecondToWeek#1;class#Time#0" />
-                <element signature="method#nanosecondToMonth#1;class#Time#0" />
-                <element signature="method#nanosecondToYear#1;class#Time#0" />
-                <element signature="e#24581#24919#0" />
-                <element signature="e#24925#25237#0" />
-                <element signature="e#25243#25556#0" />
-                <element signature="e#25562#25876#0" />
-                <element signature="e#25882#26195#0" />
-                <element signature="e#26549#26861#0" />
-                <element signature="e#26867#27180#0" />
-                <element signature="e#27186#27500#0" />
-                <element signature="e#33045#33373#0" />
-                <element signature="e#29063#29372#0" />
-                <element signature="e#29378#29690#0" />
-                <element signature="e#29696#30007#0" />
-                <element signature="e#34429#34740#0" />
-                <element signature="e#34746#35056#0" />
-                <element signature="e#35090#35401#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="1253" column="42" selection-start-line="1253" selection-start-column="42" selection-end-line="1253" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -151,7 +65,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Menu.java" />
-        <option value="$PROJECT_DIR$/tests/com/spookyNullPointer/LengthTest.java" />
         <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Length.java" />
         <option value="$PROJECT_DIR$/tests/com/spookyNullPointer/TemperatureTest.java" />
         <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Temperature.java" />
@@ -159,11 +72,13 @@
         <option value="$PROJECT_DIR$/tests/com/spookyNullPointer/AreaTest.java" />
         <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Volume.java" />
         <option value="$PROJECT_DIR$/tests/com/spookyNullPointer/VolumeTest.java" />
-        <option value="$PROJECT_DIR$/tests/com/spookyNullPointer/WeightTest.java" />
         <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Weight.java" />
         <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Time.java" />
         <option value="$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/spookyNullPointer/Time.java" />
+        <option value="$PROJECT_DIR$/tests/com/spookyNullPointer/LengthTest.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/tests/com/spookyNullPointer/WeightTest.java" />
       </list>
     </option>
   </component>
@@ -191,17 +106,6 @@
             <path>
               <item name="ConverterApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ConverterApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ConverterApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConverterApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spookyNullPointer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ConverterApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConverterApp" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -223,10 +127,10 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569156071754" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569167027924" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.xml" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -248,8 +152,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TimeTest.testYearToMonth2">
-    <configuration name="TimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LengthTest">
+    <configuration name="LengthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -258,12 +162,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.TimeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.LengthTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeTest.testYearToHour2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LengthTest.testKilometerToMeter1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -272,14 +176,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.TimeTest" />
-      <option name="METHOD_NAME" value="testYearToHour2" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.LengthTest" />
+      <option name="METHOD_NAME" value="testKilometerToMeter1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeTest.testYearToMinute2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LengthTest.testKilometerToMeter2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -288,14 +192,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.TimeTest" />
-      <option name="METHOD_NAME" value="testYearToMinute2" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.LengthTest" />
+      <option name="METHOD_NAME" value="testKilometerToMeter2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeTest.testYearToMonth1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LengthTest.testMeterToKilometer1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -304,14 +208,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.TimeTest" />
-      <option name="METHOD_NAME" value="testYearToMonth1" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.LengthTest" />
+      <option name="METHOD_NAME" value="testMeterToKilometer1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeTest.testYearToMonth2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LengthTest.testMeterToKilometer2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -320,8 +224,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.TimeTest" />
-      <option name="METHOD_NAME" value="testYearToMonth2" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.LengthTest" />
+      <option name="METHOD_NAME" value="testMeterToKilometer2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -329,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TimeTest.testYearToMonth2" />
-        <item itemvalue="JUnit.TimeTest.testYearToMonth1" />
-        <item itemvalue="JUnit.TimeTest" />
-        <item itemvalue="JUnit.TimeTest.testYearToHour2" />
-        <item itemvalue="JUnit.TimeTest.testYearToMinute2" />
+        <item itemvalue="JUnit.LengthTest" />
+        <item itemvalue="JUnit.LengthTest.testKilometerToMeter2" />
+        <item itemvalue="JUnit.LengthTest.testKilometerToMeter1" />
+        <item itemvalue="JUnit.LengthTest.testMeterToKilometer2" />
+        <item itemvalue="JUnit.LengthTest.testMeterToKilometer1" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +256,8 @@
       <workItem from="1567188944615" duration="392000" />
       <workItem from="1567190769835" duration="20693000" />
       <workItem from="1568462478034" duration="50986000" />
-      <workItem from="1568836094760" duration="60855000" />
+      <workItem from="1568836094760" duration="66354000" />
+      <workItem from="1569166348548" duration="676000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Volume. Adding Tests">
       <created>1568851660312</created>
@@ -382,43 +287,50 @@
       <option name="project" value="LOCAL" />
       <updated>1569111092992</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished all Conversions + Tests.">
+      <created>1569156102756</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569156102756</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TimeTest_testMonthToMicrosecond1 - 2019.09.22 at 13h 36m 25s.xml">
-      <configuration name="TimeTest.testMonthToMicrosecond1" configurationId="JUnit" />
+    <history-entry file="TimeTest - 2019.09.22 at 13h 40m 13s.xml">
+      <configuration name="TimeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimeTest_testMonthToMicrosecond2 - 2019.09.22 at 13h 36m 35s.xml">
-      <configuration name="TimeTest.testMonthToMicrosecond2" configurationId="JUnit" />
+    <history-entry file="TimeTest_testYearToMonth1 - 2019.09.22 at 13h 41m 10s.xml">
+      <configuration name="TimeTest.testYearToMonth1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimeTest_testMonthToNanosecond1 - 2019.09.22 at 13h 36m 46s.xml">
-      <configuration name="TimeTest.testMonthToNanosecond1" configurationId="JUnit" />
+    <history-entry file="TimeTest_testYearToMonth2 - 2019.09.22 at 13h 41m 13s.xml">
+      <configuration name="TimeTest.testYearToMonth2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimeTest_testMonthToNanosecond2 - 2019.09.22 at 13h 36m 55s.xml">
-      <configuration name="TimeTest.testMonthToNanosecond2" configurationId="JUnit" />
+    <history-entry file="LengthTest,testMeterToKilometer1_and_1_more - 2019.09.22 at 14h 59m 08s.xml">
+      <configuration name="LengthTest,testMeterToKilometer1 and 1 more" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimeTest_testMonthToPicosecond1 - 2019.09.22 at 13h 37m 06s.xml">
-      <configuration name="TimeTest.testMonthToPicosecond1" configurationId="JUnit" />
+    <history-entry file="LengthTest_testMeterToKilometer1 - 2019.09.22 at 14h 59m 48s.xml">
+      <configuration name="LengthTest.testMeterToKilometer1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimeTest_testMonthToPicosecond2 - 2019.09.22 at 13h 37m 19s.xml">
-      <configuration name="TimeTest.testMonthToPicosecond2" configurationId="JUnit" />
+    <history-entry file="LengthTest_testMeterToKilometer2 - 2019.09.22 at 15h 00m 07s.xml">
+      <configuration name="LengthTest.testMeterToKilometer2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimeTest_testMonthToMinute2 - 2019.09.22 at 13h 37m 30s.xml">
-      <configuration name="TimeTest.testMonthToMinute2" configurationId="JUnit" />
+    <history-entry file="LengthTest - 2019.09.22 at 15h 00m 20s.xml">
+      <configuration name="LengthTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimeTest_testYearToSecond2 - 2019.09.22 at 13h 37m 43s.xml">
-      <configuration name="TimeTest.testYearToSecond2" configurationId="JUnit" />
+    <history-entry file="LengthTest_testKilometerToMeter1 - 2019.09.22 at 15h 00m 47s.xml">
+      <configuration name="LengthTest.testKilometerToMeter1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimeTest_testYearToMillisecond1 - 2019.09.22 at 13h 37m 53s.xml">
-      <configuration name="TimeTest.testYearToMillisecond1" configurationId="JUnit" />
+    <history-entry file="LengthTest_testKilometerToMeter2 - 2019.09.22 at 15h 00m 58s.xml">
+      <configuration name="LengthTest.testKilometerToMeter2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimeTest_testYearToMillisecond2 - 2019.09.22 at 13h 38m 03s.xml">
-      <configuration name="TimeTest.testYearToMillisecond2" configurationId="JUnit" />
+    <history-entry file="LengthTest - 2019.09.22 at 15h 01m 09s.xml">
+      <configuration name="LengthTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141886000" />
+    <option name="totallyTimeSpent" value="148061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,9 +343,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -442,17 +353,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29144096" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.21885157" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -472,20 +383,18 @@
     <MESSAGE value="Finished Volume Tests" />
     <MESSAGE value="Working on Time + TimeTests" />
     <MESSAGE value="Finished Time&#10;Working on TimeTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Time&#10;Working on TimeTests" />
+    <MESSAGE value="Finished all Conversions + Tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished all Conversions + Tests." />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1755">
           <caret line="156" selection-start-line="156" selection-end-line="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/LengthTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -862,13 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Weight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -934,13 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/WeightTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Length.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -955,28 +850,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="230" column="8" selection-start-line="230" selection-start-column="8" selection-end-line="230" selection-end-column="8" />
-          <folding>
-            <element signature="method#createMenuArray#0;class#Menu#0" />
-            <element signature="method#choiceToString#0;class#Menu#0" />
-            <element signature="method#convertFromTo#0;class#Menu#0" />
-            <element signature="method#printStringArray#0;class#Menu#0" />
-            <element signature="method#getSetMenuChoice#0;class#Menu#0" />
-            <element signature="method#headerGraphic#0;class#Menu#0" />
-            <element signature="method#firstMenu#0;class#Menu#0" />
-            <element signature="method#secondMenu#0;class#Menu#0" />
-            <element signature="method#thirdMenu#0;class#Menu#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Time.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="365" column="30" selection-start-line="365" selection-start-column="30" selection-end-line="365" selection-end-column="30" />
+        <state relative-caret-position="407">
+          <caret line="390" column="26" selection-start-line="390" selection-start-column="26" selection-end-line="390" selection-end-column="26" />
           <folding>
             <element signature="e#322#1640#0" />
             <element signature="e#1847#3286#0" />
@@ -988,7 +865,6 @@
             <element signature="e#11224#12665#0" />
             <element signature="e#12754#14191#0" />
             <element signature="e#14287#15725#0" />
-            <element signature="e#15818#17255#0" />
             <element signature="method#kilogramToGram#0;class#Time#0" />
             <element signature="method#secondToMillisecond#1;class#Time#0" />
             <element signature="method#secondToMillisecond#2;class#Time#0" />
@@ -1050,8 +926,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="1253" column="42" selection-start-line="1253" selection-start-column="42" selection-end-line="1253" selection-end-column="42" />
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/LengthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="158" column="22" selection-start-line="158" selection-start-column="22" selection-end-line="158" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/WeightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="230" column="8" selection-start-line="230" selection-start-column="8" selection-end-line="230" selection-end-column="8" />
+          <folding>
+            <element signature="method#createMenuArray#0;class#Menu#0" />
+            <element signature="method#choiceToString#0;class#Menu#0" />
+            <element signature="method#convertFromTo#0;class#Menu#0" />
+            <element signature="method#printStringArray#0;class#Menu#0" />
+            <element signature="method#getSetMenuChoice#0;class#Menu#0" />
+            <element signature="method#headerGraphic#0;class#Menu#0" />
+            <element signature="method#firstMenu#0;class#Menu#0" />
+            <element signature="method#secondMenu#0;class#Menu#0" />
+            <element signature="method#thirdMenu#0;class#Menu#0" />
+          </folding>
         </state>
       </provider>
     </entry>

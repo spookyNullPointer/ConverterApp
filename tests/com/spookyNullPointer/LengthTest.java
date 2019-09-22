@@ -13,13 +13,13 @@ public class LengthTest {
     public void testMeterToKilometer1(){
         Length length = new Length(1, 2, 1);
         double result = length.getConversionResult();
-        assertEquals(0.001, result, DELTA);
+        assertEquals(1000, result, DELTA);
     }
     @Test
     public void testMeterToKilometer2(){
         Length length = new Length(1, 2, 1000);
         double result = length.getConversionResult();
-        assertEquals(1, result, DELTA);
+        assertEquals(1000000, result, DELTA);
     }
 
     @Test
@@ -150,13 +150,13 @@ public class LengthTest {
     public void testKilometerToMeter1(){
         Length length = new Length(2, 1, 1);
         double result = length.getConversionResult();
-        assertEquals(1000, result, DELTA);
+        assertEquals(0.001, result, DELTA);
     }
     @Test
     public void testKilometerToMeter2(){
         Length length = new Length(2, 1, 1000);
         double result = length.getConversionResult();
-        assertEquals(1000000, result, DELTA);
+        assertEquals(1, result, DELTA);
     }
     @Test
     public void testKilometerToCentimeter1(){
