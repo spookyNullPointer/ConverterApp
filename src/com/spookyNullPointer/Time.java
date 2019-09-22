@@ -190,16 +190,16 @@ class Time {
             case 6:
                 switch (into) {
                     case 1:
-                        conversionResult = secondToNanosecond(valueToConvert, true);
+                        conversionResult = secondToMinute(valueToConvert, true);
                         break;
                     case 2:
-                        conversionResult = millisecondToNanosecond(valueToConvert, true);
+                        conversionResult = millisecondToMinute(valueToConvert, true);
                         break;
                     case 3:
-                        conversionResult = microsecondToNanosecond(valueToConvert, true);
+                        conversionResult = microsecondToMinute(valueToConvert, true);
                         break;
                     case 4:
-                        conversionResult = nanosecondToPicosecond(valueToConvert, true);
+                        conversionResult = nanosecondToMinute(valueToConvert, true);
                         break;
                     case 5:
                         conversionResult = picosecondToMinute(valueToConvert, true);
@@ -225,19 +225,19 @@ class Time {
             case 7:
                 switch (into) {
                     case 1:
-                        conversionResult = secondToNanosecond(valueToConvert, true);
+                        conversionResult = secondToHour(valueToConvert, true);
                         break;
                     case 2:
-                        conversionResult = millisecondToNanosecond(valueToConvert, true);
+                        conversionResult = millisecondToHour(valueToConvert, true);
                         break;
                     case 3:
-                        conversionResult = microsecondToNanosecond(valueToConvert, true);
+                        conversionResult = microsecondToHour(valueToConvert, true);
                         break;
                     case 4:
-                        conversionResult = nanosecondToPicosecond(valueToConvert, true);
+                        conversionResult = nanosecondToHour(valueToConvert, true);
                         break;
                     case 5:
-                        conversionResult = picosecondToMinute(valueToConvert, true);
+                        conversionResult = picosecondToHour(valueToConvert, true);
                         break;
                     case 6:
                         conversionResult = minuteToHour(valueToConvert, true);
@@ -260,22 +260,22 @@ class Time {
             case 8:
                 switch (into) {
                     case 1:
-                        conversionResult = secondToNanosecond(valueToConvert, true);
+                        conversionResult = secondToDay(valueToConvert, true);
                         break;
                     case 2:
-                        conversionResult = millisecondToNanosecond(valueToConvert, true);
+                        conversionResult = millisecondToDay(valueToConvert, true);
                         break;
                     case 3:
-                        conversionResult = microsecondToNanosecond(valueToConvert, true);
+                        conversionResult = microsecondToDay(valueToConvert, true);
                         break;
                     case 4:
-                        conversionResult = nanosecondToPicosecond(valueToConvert, true);
+                        conversionResult = nanosecondToDay(valueToConvert, true);
                         break;
                     case 5:
-                        conversionResult = picosecondToMinute(valueToConvert, true);
+                        conversionResult = picosecondToDay(valueToConvert, true);
                         break;
                     case 6:
-                        conversionResult = minuteToHour(valueToConvert, true);
+                        conversionResult = minuteToDay(valueToConvert, true);
                         break;
                     case 7:
                         conversionResult = hourToDay(valueToConvert, true);
@@ -295,25 +295,25 @@ class Time {
             case 9:
                 switch (into) {
                     case 1:
-                        conversionResult = secondToNanosecond(valueToConvert, true);
+                        conversionResult = secondToWeek(valueToConvert, true);
                         break;
                     case 2:
-                        conversionResult = millisecondToNanosecond(valueToConvert, true);
+                        conversionResult = millisecondToWeek(valueToConvert, true);
                         break;
                     case 3:
-                        conversionResult = microsecondToNanosecond(valueToConvert, true);
+                        conversionResult = microsecondToWeek(valueToConvert, true);
                         break;
                     case 4:
-                        conversionResult = nanosecondToPicosecond(valueToConvert, true);
+                        conversionResult = nanosecondToWeek(valueToConvert, true);
                         break;
                     case 5:
-                        conversionResult = picosecondToMinute(valueToConvert, true);
+                        conversionResult = picosecondToWeek(valueToConvert, true);
                         break;
                     case 6:
-                        conversionResult = minuteToHour(valueToConvert, true);
+                        conversionResult = minuteToWeek(valueToConvert, true);
                         break;
                     case 7:
-                        conversionResult = hourToDay(valueToConvert, true);
+                        conversionResult = hourToWeek(valueToConvert, true);
                         break;
                     case 8:
                         conversionResult = dayToWeek(valueToConvert, true);
@@ -330,28 +330,28 @@ class Time {
             case 10:
                 switch (into) {
                     case 1:
-                        conversionResult = secondToNanosecond(valueToConvert, true);
+                        conversionResult = secondToMonth(valueToConvert, true);
                         break;
                     case 2:
-                        conversionResult = millisecondToNanosecond(valueToConvert, true);
+                        conversionResult = millisecondToMonth(valueToConvert, true);
                         break;
                     case 3:
-                        conversionResult = microsecondToNanosecond(valueToConvert, true);
+                        conversionResult = microsecondToMonth(valueToConvert, true);
                         break;
                     case 4:
-                        conversionResult = nanosecondToPicosecond(valueToConvert, true);
+                        conversionResult = nanosecondToMonth(valueToConvert, true);
                         break;
                     case 5:
-                        conversionResult = picosecondToMinute(valueToConvert, true);
+                        conversionResult = picosecondToMonth(valueToConvert, true);
                         break;
                     case 6:
-                        conversionResult = minuteToHour(valueToConvert, true);
+                        conversionResult = minuteToMonth(valueToConvert, true);
                         break;
                     case 7:
-                        conversionResult = hourToDay(valueToConvert, true);
+                        conversionResult = hourToMonth(valueToConvert, true);
                         break;
                     case 8:
-                        conversionResult = dayToWeek(valueToConvert, true);
+                        conversionResult = dayToMonth(valueToConvert, true);
                         break;
                     case 9:
                         conversionResult = weekToMonth(valueToConvert, true);
@@ -365,33 +365,33 @@ class Time {
             case 11:
                 switch (into) {
                     case 1:
-                        conversionResult = secondToNanosecond(valueToConvert, true);
+                        conversionResult = secondToYear(valueToConvert, true);
                         break;
                     case 2:
-                        conversionResult = millisecondToNanosecond(valueToConvert, true);
+                        conversionResult = millisecondToYear(valueToConvert, true);
                         break;
                     case 3:
-                        conversionResult = microsecondToNanosecond(valueToConvert, true);
+                        conversionResult = microsecondToYear(valueToConvert, true);
                         break;
                     case 4:
-                        conversionResult = nanosecondToPicosecond(valueToConvert, true);
+                        conversionResult = nanosecondToYear(valueToConvert, true);
                         break;
                     case 5:
-                        conversionResult = picosecondToMinute(valueToConvert, true);
+                        conversionResult = picosecondToYear(valueToConvert, true);
                         break;
                     case 6:
-                        conversionResult = minuteToHour(valueToConvert, true);
+                        conversionResult = minuteToYear(valueToConvert, true);
                         break;
                     case 7:
-                        conversionResult = hourToDay(valueToConvert, true);
+                        conversionResult = hourToYear(valueToConvert, true);
                         break;
                     case 8:
-                        conversionResult = dayToWeek(valueToConvert, true);
+                        conversionResult = dayToYear(valueToConvert, true);
                         break;
                     case 9:
-                        conversionResult = weekToMonth(valueToConvert, true);
+                        conversionResult = weekToYear(valueToConvert, true);
                         break;
-                    case 11:
+                    case 10:
                         conversionResult = monthToYear(valueToConvert, true);
                         break;
                 }

@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6dbafeeb-22c3-4ab7-be2b-55ede8a7b7e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Weight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Weight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Time.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Time.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/spookyNullPointer/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spookyNullPointer/Time.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java" afterDir="false" />
     </list>
@@ -52,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Time.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2788">
-              <caret line="985" column="69" selection-start-line="985" selection-start-column="69" selection-end-line="985" selection-end-column="69" />
+            <state relative-caret-position="79">
+              <caret line="365" column="30" selection-start-line="365" selection-start-column="30" selection-end-line="365" selection-end-column="30" />
               <folding>
                 <element signature="e#322#1640#0" />
                 <element signature="e#1847#3286#0" />
@@ -129,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="381" column="26" selection-start-line="381" selection-start-column="26" selection-end-line="381" selection-end-column="26" />
+            <state relative-caret-position="-23">
+              <caret line="1253" column="42" selection-start-line="1253" selection-start-column="42" selection-end-line="1253" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -224,7 +223,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569111066636" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569156071754" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -249,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TimeTest">
+  <component name="RunManager" selected="JUnit.TimeTest.testYearToMonth2">
     <configuration name="TimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
@@ -264,7 +263,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeightTest.testAtomicMassUnitToGram2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimeTest.testYearToHour2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -273,14 +272,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.WeightTest" />
-      <option name="METHOD_NAME" value="testAtomicMassUnitToGram2" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.TimeTest" />
+      <option name="METHOD_NAME" value="testYearToHour2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeightTest.testAtomicMassUnitToMilligram2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimeTest.testYearToMinute2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -289,14 +288,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.WeightTest" />
-      <option name="METHOD_NAME" value="testAtomicMassUnitToMilligram2" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.TimeTest" />
+      <option name="METHOD_NAME" value="testYearToMinute2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeightTest.testAtomicMassUnitToOunce2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimeTest.testYearToMonth1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -305,14 +304,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.WeightTest" />
-      <option name="METHOD_NAME" value="testAtomicMassUnitToOunce2" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.TimeTest" />
+      <option name="METHOD_NAME" value="testYearToMonth1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeightTest.testAtomicMassUnitoMilligram1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimeTest.testYearToMonth2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
         <pattern>
@@ -321,8 +320,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.WeightTest" />
-      <option name="METHOD_NAME" value="testAtomicMassUnitoMilligram1" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.TimeTest" />
+      <option name="METHOD_NAME" value="testYearToMonth2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -330,11 +329,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TimeTest.testYearToMonth2" />
+        <item itemvalue="JUnit.TimeTest.testYearToMonth1" />
         <item itemvalue="JUnit.TimeTest" />
-        <item itemvalue="JUnit.WeightTest.testAtomicMassUnitToOunce2" />
-        <item itemvalue="JUnit.WeightTest.testAtomicMassUnitToMilligram2" />
-        <item itemvalue="JUnit.WeightTest.testAtomicMassUnitoMilligram1" />
-        <item itemvalue="JUnit.WeightTest.testAtomicMassUnitToGram2" />
+        <item itemvalue="JUnit.TimeTest.testYearToHour2" />
+        <item itemvalue="JUnit.TimeTest.testYearToMinute2" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +352,7 @@
       <workItem from="1567188944615" duration="392000" />
       <workItem from="1567190769835" duration="20693000" />
       <workItem from="1568462478034" duration="50986000" />
-      <workItem from="1568836094760" duration="55382000" />
+      <workItem from="1568836094760" duration="60855000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Volume. Adding Tests">
       <created>1568851660312</created>
@@ -376,43 +375,50 @@
       <option name="project" value="LOCAL" />
       <updated>1569103770852</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished Time&#10;Working on TimeTests">
+      <created>1569111092992</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569111092992</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WeightTest_testOunceToMilligram2 - 2019.09.21 at 22h 42m 22s.xml">
-      <configuration name="WeightTest.testOunceToMilligram2" configurationId="JUnit" />
+    <history-entry file="TimeTest_testMonthToMicrosecond1 - 2019.09.22 at 13h 36m 25s.xml">
+      <configuration name="TimeTest.testMonthToMicrosecond1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightTest - 2019.09.21 at 22h 52m 21s.xml">
-      <configuration name="WeightTest" configurationId="JUnit" />
+    <history-entry file="TimeTest_testMonthToMicrosecond2 - 2019.09.22 at 13h 36m 35s.xml">
+      <configuration name="TimeTest.testMonthToMicrosecond2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightTest_testCarratToAtomicMassUnit1 - 2019.09.21 at 22h 52m 29s.xml">
-      <configuration name="WeightTest.testCarratToAtomicMassUnit1" configurationId="JUnit" />
+    <history-entry file="TimeTest_testMonthToNanosecond1 - 2019.09.22 at 13h 36m 46s.xml">
+      <configuration name="TimeTest.testMonthToNanosecond1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightTest_testCarratToAtomicMassUnit1 - 2019.09.21 at 22h 53m 13s.xml">
-      <configuration name="WeightTest.testCarratToAtomicMassUnit1" configurationId="JUnit" />
+    <history-entry file="TimeTest_testMonthToNanosecond2 - 2019.09.22 at 13h 36m 55s.xml">
+      <configuration name="TimeTest.testMonthToNanosecond2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightTest_testCarratToAtomicMassUnit2 - 2019.09.21 at 22h 53m 15s.xml">
-      <configuration name="WeightTest.testCarratToAtomicMassUnit2" configurationId="JUnit" />
+    <history-entry file="TimeTest_testMonthToPicosecond1 - 2019.09.22 at 13h 37m 06s.xml">
+      <configuration name="TimeTest.testMonthToPicosecond1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightTest_testAtomicMassUnitToGram2 - 2019.09.21 at 22h 53m 20s.xml">
-      <configuration name="WeightTest.testAtomicMassUnitToGram2" configurationId="JUnit" />
+    <history-entry file="TimeTest_testMonthToPicosecond2 - 2019.09.22 at 13h 37m 19s.xml">
+      <configuration name="TimeTest.testMonthToPicosecond2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightTest_testAtomicMassUnitToGram2 - 2019.09.21 at 22h 54m 30s.xml">
-      <configuration name="WeightTest.testAtomicMassUnitToGram2" configurationId="JUnit" />
+    <history-entry file="TimeTest_testMonthToMinute2 - 2019.09.22 at 13h 37m 30s.xml">
+      <configuration name="TimeTest.testMonthToMinute2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightTest_testAtomicMassUnitoMilligram1 - 2019.09.21 at 22h 54m 33s.xml">
-      <configuration name="WeightTest.testAtomicMassUnitoMilligram1" configurationId="JUnit" />
+    <history-entry file="TimeTest_testYearToSecond2 - 2019.09.22 at 13h 37m 43s.xml">
+      <configuration name="TimeTest.testYearToSecond2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightTest_testAtomicMassUnitToMilligram2 - 2019.09.21 at 22h 54m 35s.xml">
-      <configuration name="WeightTest.testAtomicMassUnitToMilligram2" configurationId="JUnit" />
+    <history-entry file="TimeTest_testYearToMillisecond1 - 2019.09.22 at 13h 37m 53s.xml">
+      <configuration name="TimeTest.testYearToMillisecond1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightTest_testAtomicMassUnitToOunce2 - 2019.09.21 at 22h 54m 42s.xml">
-      <configuration name="WeightTest.testAtomicMassUnitToOunce2" configurationId="JUnit" />
+    <history-entry file="TimeTest_testYearToMillisecond2 - 2019.09.22 at 13h 38m 03s.xml">
+      <configuration name="TimeTest.testYearToMillisecond2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136413000" />
+    <option name="totallyTimeSpent" value="141886000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,7 +433,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -436,7 +442,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29144096" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29144096" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,7 +471,8 @@
     <MESSAGE value="Finished Volume. Adding Tests" />
     <MESSAGE value="Finished Volume Tests" />
     <MESSAGE value="Working on Time + TimeTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on Time + TimeTests" />
+    <MESSAGE value="Finished Time&#10;Working on TimeTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Time&#10;Working on TimeTests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
@@ -968,8 +975,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Time.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2788">
-          <caret line="985" column="69" selection-start-line="985" selection-start-column="69" selection-end-line="985" selection-end-column="69" />
+        <state relative-caret-position="79">
+          <caret line="365" column="30" selection-start-line="365" selection-start-column="30" selection-end-line="365" selection-end-column="30" />
           <folding>
             <element signature="e#322#1640#0" />
             <element signature="e#1847#3286#0" />
@@ -1043,8 +1050,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="381" column="26" selection-start-line="381" selection-start-column="26" selection-end-line="381" selection-end-column="26" />
+        <state relative-caret-position="-23">
+          <caret line="1253" column="42" selection-start-line="1253" selection-start-column="42" selection-end-line="1253" selection-end-column="42" />
         </state>
       </provider>
     </entry>
