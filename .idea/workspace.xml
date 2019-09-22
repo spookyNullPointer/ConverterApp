@@ -4,16 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/spookyNullPointer/Length.java" line="289" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbafeeb-22c3-4ab7-be2b-55ede8a7b7e1" name="Default Changelist" comment="Finished Volume Tests">
-      <change afterPath="$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/com/spookyNullPointer/WeightTest.java" afterDir="false" />
+    <list default="true" id="6dbafeeb-22c3-4ab7-be2b-55ede8a7b7e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Volume.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Volume.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spookyNullPointer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spookyNullPointer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Weight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConverterApp/com/spookyNullPointer/Weight.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/spookyNullPointer/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spookyNullPointer/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spookyNullPointer/Volume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spookyNullPointer/Volume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spookyNullPointer/Weight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spookyNullPointer/Weight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/com/spookyNullPointer/VolumeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/spookyNullPointer/VolumeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,13 +49,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Time.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="2788">
+              <caret line="985" column="69" selection-start-line="985" selection-start-column="69" selection-end-line="985" selection-end-column="69" />
               <folding>
                 <element signature="e#322#1640#0" />
+                <element signature="e#1847#3286#0" />
+                <element signature="e#3430#4913#0" />
+                <element signature="e#5011#6493#0" />
+                <element signature="e#6582#8054#0" />
+                <element signature="e#8148#9619#0" />
+                <element signature="e#9691#11141#0" />
+                <element signature="e#11224#12665#0" />
+                <element signature="e#12754#14191#0" />
+                <element signature="e#14287#15725#0" />
+                <element signature="e#15818#17255#0" />
                 <element signature="method#kilogramToGram#0;class#Time#0" />
                 <element signature="method#secondToMillisecond#1;class#Time#0" />
                 <element signature="method#secondToMillisecond#2;class#Time#0" />
@@ -70,16 +76,61 @@
                 <element signature="method#secondToPicosecond#4;class#Time#0" />
                 <element signature="method#sec#0;class#Time#0" />
                 <element signature="method#secondToWeek#2;class#Time#0" />
+                <element signature="method#secondToMicrosecond#1;class#Time#0" />
+                <element signature="method#secondToNanosecond#1;class#Time#0" />
+                <element signature="method#secondToPicosecond#1;class#Time#0" />
+                <element signature="method#secondToMinute#1;class#Time#0" />
+                <element signature="method#secondToHour#1;class#Time#0" />
+                <element signature="method#secondToDay#1;class#Time#0" />
+                <element signature="method#secondToWeek#1;class#Time#0" />
+                <element signature="method#secondToMonth#1;class#Time#0" />
+                <element signature="method#secondToYear#1;class#Time#0" />
+                <element signature="method#millisecondToNanosecond#1;class#Time#0" />
+                <element signature="method#millisecondToPicosecond#1;class#Time#0" />
+                <element signature="method#millisecondToMinute#1;class#Time#0" />
+                <element signature="method#millisecondToHour#1;class#Time#0" />
+                <element signature="method#millisecondToDay#1;class#Time#0" />
+                <element signature="method#millisecondToWeek#1;class#Time#0" />
+                <element signature="method#millisecondToMonth#1;class#Time#0" />
+                <element signature="method#millisecondToYear#1;class#Time#0" />
+                <element signature="method#microsecondToPicosecond#1;class#Time#0" />
+                <element signature="method#microsecondToMinute#1;class#Time#0" />
+                <element signature="method#microsecondToHour#1;class#Time#0" />
+                <element signature="method#microsecondToDay#1;class#Time#0" />
+                <element signature="method#microsecondToWeek#1;class#Time#0" />
+                <element signature="method#microsecondToMonth#1;class#Time#0" />
+                <element signature="method#microsecondToYear#1;class#Time#0" />
+                <element signature="method#nanosecondToMinute#1;class#Time#0" />
+                <element signature="method#nanosecondToHour#1;class#Time#0" />
+                <element signature="method#nanosecondToDay#1;class#Time#0" />
+                <element signature="method#nanosecondToWeek#1;class#Time#0" />
+                <element signature="method#nanosecondToMonth#1;class#Time#0" />
+                <element signature="method#nanosecondToYear#1;class#Time#0" />
+                <element signature="e#24581#24919#0" />
+                <element signature="e#24925#25237#0" />
+                <element signature="e#25243#25556#0" />
+                <element signature="e#25562#25876#0" />
+                <element signature="e#25882#26195#0" />
+                <element signature="e#26549#26861#0" />
+                <element signature="e#26867#27180#0" />
+                <element signature="e#27186#27500#0" />
+                <element signature="e#33045#33373#0" />
+                <element signature="e#29063#29372#0" />
+                <element signature="e#29378#29690#0" />
+                <element signature="e#29696#30007#0" />
+                <element signature="e#34429#34740#0" />
+                <element signature="e#34746#35056#0" />
+                <element signature="e#35090#35401#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="351">
+              <caret line="381" column="26" selection-start-line="381" selection-start-column="26" selection-end-line="381" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -173,7 +224,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569103583229" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569111066636" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -198,7 +249,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WeightTest.testAtomicMassUnitToOunce2">
+  <component name="RunManager" selected="JUnit.TimeTest">
+    <configuration name="TimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConverterApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spookyNullPointer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
+      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.TimeTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WeightTest.testAtomicMassUnitToGram2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterApp" />
       <extension name="coverage">
@@ -263,29 +328,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeightTest.testCarratToAtomicMassUnit2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ConverterApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spookyNullPointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spookyNullPointer" />
-      <option name="MAIN_CLASS_NAME" value="com.spookyNullPointer.WeightTest" />
-      <option name="METHOD_NAME" value="testCarratToAtomicMassUnit2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TimeTest" />
         <item itemvalue="JUnit.WeightTest.testAtomicMassUnitToOunce2" />
         <item itemvalue="JUnit.WeightTest.testAtomicMassUnitToMilligram2" />
         <item itemvalue="JUnit.WeightTest.testAtomicMassUnitoMilligram1" />
         <item itemvalue="JUnit.WeightTest.testAtomicMassUnitToGram2" />
-        <item itemvalue="JUnit.WeightTest.testCarratToAtomicMassUnit2" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +353,7 @@
       <workItem from="1567188944615" duration="392000" />
       <workItem from="1567190769835" duration="20693000" />
       <workItem from="1568462478034" duration="50986000" />
-      <workItem from="1568836094760" duration="50963000" />
+      <workItem from="1568836094760" duration="55382000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Volume. Adding Tests">
       <created>1568851660312</created>
@@ -320,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569025417820</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Working on Time + TimeTests">
+      <created>1569103770852</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569103770852</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -356,7 +412,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131994000" />
+    <option name="totallyTimeSpent" value="136413000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,7 +464,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished Volume. Adding Tests" />
     <MESSAGE value="Finished Volume Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Volume Tests" />
+    <MESSAGE value="Working on Time + TimeTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on Time + TimeTests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
@@ -505,20 +562,6 @@
             <element signature="e#31082#31395#0" />
             <element signature="e#32856#33169#0" />
             <element signature="e#33179#33492#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Length.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="440" column="4" selection-start-line="440" selection-start-column="4" selection-end-line="450" selection-end-column="5" />
-          <folding>
-            <element signature="e#10529#12084#0" />
-            <element signature="e#12180#13729#0" />
-            <element signature="e#13825#15373#0" />
-            <element signature="e#15469#17015#0" />
-            <element signature="e#17117#18707#0" />
           </folding>
         </state>
       </provider>
@@ -884,17 +927,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/WeightTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Length.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="440" column="4" selection-start-line="440" selection-start-column="4" selection-end-line="450" selection-end-column="5" />
+          <folding>
+            <element signature="e#10529#12084#0" />
+            <element signature="e#12180#13729#0" />
+            <element signature="e#13825#15373#0" />
+            <element signature="e#15469#17015#0" />
+            <element signature="e#17117#18707#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -918,10 +968,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spookyNullPointer/Time.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="2788">
+          <caret line="985" column="69" selection-start-line="985" selection-start-column="69" selection-end-line="985" selection-end-column="69" />
           <folding>
             <element signature="e#322#1640#0" />
+            <element signature="e#1847#3286#0" />
+            <element signature="e#3430#4913#0" />
+            <element signature="e#5011#6493#0" />
+            <element signature="e#6582#8054#0" />
+            <element signature="e#8148#9619#0" />
+            <element signature="e#9691#11141#0" />
+            <element signature="e#11224#12665#0" />
+            <element signature="e#12754#14191#0" />
+            <element signature="e#14287#15725#0" />
+            <element signature="e#15818#17255#0" />
             <element signature="method#kilogramToGram#0;class#Time#0" />
             <element signature="method#secondToMillisecond#1;class#Time#0" />
             <element signature="method#secondToMillisecond#2;class#Time#0" />
@@ -932,7 +992,59 @@
             <element signature="method#secondToPicosecond#4;class#Time#0" />
             <element signature="method#sec#0;class#Time#0" />
             <element signature="method#secondToWeek#2;class#Time#0" />
+            <element signature="method#secondToMicrosecond#1;class#Time#0" />
+            <element signature="method#secondToNanosecond#1;class#Time#0" />
+            <element signature="method#secondToPicosecond#1;class#Time#0" />
+            <element signature="method#secondToMinute#1;class#Time#0" />
+            <element signature="method#secondToHour#1;class#Time#0" />
+            <element signature="method#secondToDay#1;class#Time#0" />
+            <element signature="method#secondToWeek#1;class#Time#0" />
+            <element signature="method#secondToMonth#1;class#Time#0" />
+            <element signature="method#secondToYear#1;class#Time#0" />
+            <element signature="method#millisecondToNanosecond#1;class#Time#0" />
+            <element signature="method#millisecondToPicosecond#1;class#Time#0" />
+            <element signature="method#millisecondToMinute#1;class#Time#0" />
+            <element signature="method#millisecondToHour#1;class#Time#0" />
+            <element signature="method#millisecondToDay#1;class#Time#0" />
+            <element signature="method#millisecondToWeek#1;class#Time#0" />
+            <element signature="method#millisecondToMonth#1;class#Time#0" />
+            <element signature="method#millisecondToYear#1;class#Time#0" />
+            <element signature="method#microsecondToPicosecond#1;class#Time#0" />
+            <element signature="method#microsecondToMinute#1;class#Time#0" />
+            <element signature="method#microsecondToHour#1;class#Time#0" />
+            <element signature="method#microsecondToDay#1;class#Time#0" />
+            <element signature="method#microsecondToWeek#1;class#Time#0" />
+            <element signature="method#microsecondToMonth#1;class#Time#0" />
+            <element signature="method#microsecondToYear#1;class#Time#0" />
+            <element signature="method#nanosecondToMinute#1;class#Time#0" />
+            <element signature="method#nanosecondToHour#1;class#Time#0" />
+            <element signature="method#nanosecondToDay#1;class#Time#0" />
+            <element signature="method#nanosecondToWeek#1;class#Time#0" />
+            <element signature="method#nanosecondToMonth#1;class#Time#0" />
+            <element signature="method#nanosecondToYear#1;class#Time#0" />
+            <element signature="e#24581#24919#0" />
+            <element signature="e#24925#25237#0" />
+            <element signature="e#25243#25556#0" />
+            <element signature="e#25562#25876#0" />
+            <element signature="e#25882#26195#0" />
+            <element signature="e#26549#26861#0" />
+            <element signature="e#26867#27180#0" />
+            <element signature="e#27186#27500#0" />
+            <element signature="e#33045#33373#0" />
+            <element signature="e#29063#29372#0" />
+            <element signature="e#29378#29690#0" />
+            <element signature="e#29696#30007#0" />
+            <element signature="e#34429#34740#0" />
+            <element signature="e#34746#35056#0" />
+            <element signature="e#35090#35401#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/spookyNullPointer/TimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="381" column="26" selection-start-line="381" selection-start-column="26" selection-end-line="381" selection-end-column="26" />
         </state>
       </provider>
     </entry>
